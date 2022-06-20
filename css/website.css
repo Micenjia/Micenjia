@@ -1,4 +1,3 @@
-
 * {
 	margin: 0;
 }
@@ -6,30 +5,36 @@
 a {
 	text-decoration: none;
 }
+
 html {
-  scroll-behavior: smooth;/*平滑滚动*/
+	scroll-behavior: smooth;
+	/*平滑滚动*/
 }
+
 @font-face {
-	font-family:Gen-Jyuu-Gothic-Regular;
+	font-family: Gen-Jyuu-Gothic-Regular;
 	src: url('fonts/Gen-Jyuu-Gothic-Regular.ttf')format('truetype');
 	src: url('fonts/Gen-Jyuu-Gothic-Regular.svg');
 }
-body{
+
+body {
 	/*background-image: linear-gradient(-225deg, #3D4E81 0%, #5753C9 48%, #6E7FF3 100%);*/
-	background-image: linear-gradient(150deg, rgb(164 192 229)  0%, #d6e0e5 100%);
-	background-attachment:fixed;
+	background-image: linear-gradient(150deg, rgb(164 192 229) 0%, #d6e0e5 100%);
+	background-attachment: fixed;
 }
-.logo>img{
+
+.logo>img {
 	height: 40px;
 	position: absolute;
 	top: 50px;
 	left: 50px;
 }
-.wa{
+
+.wa {
 	float: right;
 	position: relative;
-	top: 50px;
-	right: 50px;
+	top: 3.125rem ;
+	right: 3.125rem ;
 }
 
 ul li {
@@ -38,297 +43,383 @@ ul li {
 	display: inline-block;
 	vertical-align: top;
 	padding: 0 20px;
-	
-}
-li a{
-	font: 26px medium ;
-	font-family:'Gen-Jyuu-Gothic-Regular';
-	color: #4c5199;
-}
-.text{
-	color: #4c5199;
-	position: relative;
-	top: 200px;
-	left: 150px;
-	width:1000px;
-}
-.text h2{
-	font:72px medium;
-	padding-bottom: 80px ;
-	
-}
-.text h3{
-	font: 50px medium;
 }
 
-#im{
+li a {
+	font: 26px medium;
+	font-family: 'Gen-Jyuu-Gothic-Regular';
+	color: #4c5199;
+}
+
+.text {
+	color: #4c5199;
+ 	position: relative;
+ 	top: 12.5em;
+	left: 9.375em;
+ 	display: block;
+ 	width:  -webkit-fit-content;
+ 
+}
+
+.animate__text {
+	-webkit-animation-name: text;
+	animation-name: text;
+}
+
+.text h2 {
+	font: 4em medium;
+	padding-bottom: 4.5rem;
+	display: block;
+	
+}
+
+.text h3 {
+	font: 2.5em medium;
+	display: block;
+}
+
+#im {
 	padding-bottom: 55px;
 }
+
+
 /*线*/
-#line{
+
+#line {
 	height: 2px;
-	width: 1000px;
+	width: 70%;
 	background-color: white;
 	margin: 0 auto;
 	border-radius: 3px;
 	position: relative;
-	top:400px;
-}
-/*作品*/
-.icon{
-	position: relative;
-	left: 150px;
-	top: 560px;
-	width: 1000px;
-	color: #4c5199;
-	width: 1000px;
-	height: 500px;
-	font-size: 40px;
-	padding-left: 200px;
-	font-weight: 100;
-	cursor: pointer;/*指针*/
+	top: 400px;
 }
 
-.title{
+
+/*作品*/
+
+#works {
+	margin: 0 auto;
+}
+
+.icon {
+	position: relative;
+	margin: 0 auto;
+	top: 35rem;
+	width: 62.5rem;
+	color: #4c5199;
+	height: 31.25rem;
+	font-size: 2.5rem;
+	font-weight: 100;
+	cursor: pointer;
+	/*指针*/
+}
+
+.title {
 	font-weight: 500;
-	font-size: 50px;
-	padding-bottom: 40px;
+	padding-bottom: 1.5rem;
+	font-size: 3rem;
+	width:  -webkit-fit-content;
+	position: relative;
+	left: 8%;
 }
-.article{
+
+.article {
 	font-weight: 300;
-	font-size: 35px;
+	font-size: 2rem;
+	width:  -webkit-fit-content;
+	position: relative;
+	left: 8%;
 }
-#one{
+
+.titler {
+	font-weight: 500;
+	font-size: 3rem;
+	padding-left: 60%;
+	padding-bottom: 1.5rem;
+	width:  -webkit-fit-content;
+}
+
+.articler {
+	font-weight: 300;
+	font-size: 2rem;
+	padding-left: 60%;
+	width:  -webkit-fit-content;
+}
+
+#one {
 	font-style: italic;
 }
-.oneimg{
+
+.oneimg {
 	float: right;
 	position: relative;
-	right: 100px;
-	bottom: 200px;
-	width: 100px;
+	right: 6.25rem;
+	bottom: 12.5rem;
+	width: 6.25rem;
 }
-.ohcard{
+
+.ohcard {
 	position: relative;
-	left: 680px;
-	top: 500px;
-	width: 400px;
+	margin: 0 auto;
+	top: 36.25rem;
+	width: 62.5rem;
 	color: #4c5199;
-	height: 500px;
-	font-size: 40px;
-	padding-left: 200px;
+	height: 31.25rem;
+	font-size: 2.5rem;
 	font-weight: 100;
 }
-.ohimg{
+
+.ohimg {
 	float: left;
 	position: relative;
-	right: 540px;
-	bottom: 200px;
+	bottom: 12.5rem;
+	left: 8%;
 }
-.snack{
+
+.snack {
 	position: relative;
-	left: 150px;
-	top: 500px;
-	width: 1000px;
+	margin: 0 auto;
+	top: 35rem;
+	width: 62.5rem;
 	color: #4c5199;
-	height: 500px;
-	font-size: 40px;
-	padding-left: 200px;
+	height: 31.25rem;
+	font-size: 2.5rem;
 	font-weight: 100;
 }
-.snackimg{
+
+.snackimg {
 	float: right;
 	position: relative;
 	right: 60px;
 	bottom: 190px;
 	width: 300px;
 }
-.magazine{
+
+.magazine {
 	position: relative;
-	left: 820px;
-	top: 500px;
-	width: 400px;
+	margin: 0 auto;
+	top: 36.25rem;
+	width: 62.5rem;
 	color: #4c5199;
-	height: 500px;
-	font-size: 40px;
-	padding-left: 200px;
+	height: 31.25rem;
+	font-size: 2.5rem;
 	font-weight: 100;
 }
-.magazineimg{
+
+.magazineimg {
 	float: left;
 	position: relative;
-	right: 670px;
-	bottom: 170px;
-	width: 300px;
+	bottom: 12.5rem;
+	width: 18.75rem;
+	left: 8%;
 }
-.photograph{
+
+.photograph {
 	position: relative;
-	left: 150px;
-	top: 500px;
-	width: 1000px;
+	margin: 0 auto;
+	top: 35rem;
+	width: 62.5rem;
 	color: #4c5199;
-	height: 500px;
-	font-size: 40px;
-	padding-left: 200px;
+	height: 31.25rem;
+	font-size: 2.5rem;
 	font-weight: 100;
 }
-.photographimg{
+
+.photographimg {
 	float: right;
 	position: relative;
 	right: 60px;
 	bottom: 165px;
 	width: 300px;
 }
-.home img:hover{
-	transform: scale(1.2); /*缩放倍率*/
-    transition: all 0.2s linear; /*时间*/
+
+.home img:hover {
+	transform: scale(1.2);
+	/*缩放倍率*/
+	transition: all 0.2s linear;
+	/*时间*/
 }
 
 
 /*About*/
-.Abbg{
+
+.Abbg {
 	background-color: #d6e0e5;
 }
 
-.myphoto{
+.myphoto {
 	position: relative;
 	top: 180px;
 	left: 160px;
 }
-.contract{
+
+.contract {
 	position: absolute;
-	top:520px;
+	top: 520px;
 	width: 500px;
 	left: 56px;
 }
-ul li{
+
+ul li {
 	padding-bottom: 30px;
-	font-family: "微软雅黑" ;
+	font-family: "微软雅黑";
 	font-size: 24px;
 	color: #3e3a39;
 	font-weight: 500;
 }
-.ct
-{
+
+.ct {
 	margin: 0px 0px 25px 35px;
 	line-height: normal;
 	position: relative;
 	bottom: 10px;
 }
-.middle{
-	width: 40px;
-	height: 100%;;
+
+.middle {
+	width: 2.5rem;
+	height: 57em;
 	background-color: #5155a2;
 	position: absolute;
 	float: left;
-	left:550px ;
+	left: 34.375rem;
 	top: 0;
 }
-.right{
+
+.right {
 	position: relative;
 	left: 700px;
 	line-height: 50px;
-	letter-spacing:10px;
+	letter-spacing: 10px;
+	width: 600px;
 }
-.name{
+
+.name {
 	font-size: 36px;
 	color: #323333;
 }
-.school{
+
+.school {
 	font-size: 25px;
 	color: #595757;
 	padding-bottom: 40px;
 }
-.headline{
+
+.headline {
 	font-size: 25px;
 	color: #323333;
 }
-.skill{
+
+.skill {
 	font-size: 24px;
-	color:#595757;
+	color: #595757;
 }
-.skills{
-	letter-spacing:5px;
+
+.skills {
+	letter-spacing: 5px;
 	font-size: 24px;
-	color:#595757;
+	color: #595757;
 	padding: 5px 0 30px 0;
 }
-.serve{
-	letter-spacing:5px;
+
+.serve {
+	letter-spacing: 5px;
 	font-size: 24px;
-	color:#595757;
+	color: #595757;
 	line-height: 50px;
 }
 
 
 /*icon*/
-.iconweb{
+
+.iconweb {
 	position: relative;
-	top: 300px;
-	width: 1000px;
-	color: #4c5199;
-	height: 500px;
-	font-size: 40px;
-	font-weight: 100px;
-	margin: 0 auto;
+ 	top: 15em;
+ 	width: 52.5rem;
+ 	margin: 0 auto;
+ 	color: #4c5199;
+	padding: 4rem;
+ 
 }
-#icons{
+
+#icons {
 	margin: 0 auto;
-	padding-bottom: 200px;
+	padding: 2rem;
+	position: absolute;
+	top:42rem;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	display: block;
+	width: 68%;    
+	/*width:-webkit-fill-available;*/
 }
+
+
 /*ohcard*/
-.ohcards{
+
+.ohcards {
 	position: relative;
-	left: 680px;
-	top: 300px;
-	width: 400px;
-	color: #4c5199;
-	height: 500px;
-	font-size: 40px;
-	padding-left: 200px;
-	font-weight: 100;
+ 	top: 20em;
+ 	width: 62.5rem;
+ 	margin: 0 auto;
+ 	color: #4c5199;
 }
-#ohimg{
+
+#ohimgs {
 	float: left;
 	width: 100%;
 	position: relative;
-	top: 410px;
+	top: 26.625em;
 }
+
+
 /*snack*/
-#snaimg{
+
+#snaimg {
 	float: left;
 	width: 80%;
 	position: relative;
-	top: 210px;
-	left: 180px;
-	padding-bottom: 200px;
+	top: 13.125rem;
+	margin: 0 auto;
+	left: 10%;
+	padding-bottom: 100px;
 }
+
+
 /*magazine*/
-#magaimg{
+
+#magaimg {
 	float: left;
 	width: 100%;
 	position: relative;
 	top: 100px;
-	padding-bottom: 200px;
+	padding-bottom: 0px;
 }
+
+
 /*phtograph*/
-#blue{
-	width: 500px;
-	position: relative;
-	top: 100px;
-	left: 200px;
-	padding-bottom: 10px;
+.phweb{
+	padding: 20rem;
 }
-#green{
-	width: 600px;
+#blue {
+	width:31.25rem;
 	position: relative;
-	top: 350px;
-	left: 400px;
+	right: 6.5rem;
+	padding-bottom: 0.625rem;
 }
-#cat{
-	width: 500px;
-	position: relative;
-	top: 500px;
-	left: 200px;
-	padding-bottom: 200px;
+
+#green {
+	width:37.5rem;
+	position: absolute;
+	top: 75rem;
+	right: 10%;
+}
+
+#cat {
+	width: 31.25rem;
+	position: absolute;
+	top: 110rem;
+	left: 12.5rem;
+	padding-bottom: 12.5rem;
 }
