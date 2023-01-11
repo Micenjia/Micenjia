@@ -1,0 +1,363 @@
+
+
+* {
+  box-sizing: border-box;
+}
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+
+#content>div {
+    max-width: 1366px;
+    width: 100%;
+	padding: 0 1% !important;
+	margin-top:75px; margin-bottom:50px;
+}
+#content .fusionSolar_tab {
+    width: 100%;
+    height: 99px;
+    border-bottom: 2px solid #c4262a;
+    float: left;
+}
+#content .fusionSolar_tab .ftab {
+    display: inline-block;
+    font-size: 20px;
+    color: #be1115;
+    line-height: 99px;
+    margin-top: 20px;/* qujia */
+}
+#content .fusionSolar_tab .ftab .text {
+	font-weight: bold;padding-left:20px;
+}
+
+#content .fusionSolar_tab .fusionSolar_icon {
+    margin-right: 20px;
+}
+
+
+#content .div_box1 .box1_title,
+#content .div_box2 .box2_title,
+#content .div_box3 .box3_title {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 46px;
+	color: #000;
+}
+#content .div_box1 .box1_title {
+    margin-top: 135px;
+}
+#content .div_box2 .box2_title {
+    margin-bottom: 46px;
+}
+#content .div_box1 .fusionSolarlist1 {
+    margin-top: 46px;
+    background-color: #f7f7f7;
+    /* background-color: beige; */
+    padding: 50px;
+}
+#content .div_box1 .fusionSolarlist1 .img img {
+   max-width: 100%;
+}
+#content .div_box1 .fusionSolarlist1.re  {
+    padding: 50px 80px;
+}
+#content .div_box1 .fusionSolarlist1 .content .p1 {
+    font-size: 28px;
+    color: white;
+}
+#content .div_box1 .fusionSolarlist1 .content .p2 {
+    margin: 40px 0 60px;
+    font-size: 18px;
+    color: #abb1c9;
+}
+#content .div_box1 .fusionSolarlist1 .content .p3 {
+    display: block;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: right;
+}
+#content .div_box1 .fusionSolarlist1 .content .p3:hover {
+    text-decoration: underline;
+    color: #05703A;
+}
+/* qujia */
+#content .div_box1 .fusionSolarlist1 .content .p4{
+    font-size: 16px;
+    color: white;
+}
+#content .div_box2 .fusionSolarlist2 {
+    background-color: rgb(247, 247, 247);
+    padding: 50px;
+}
+.brands{
+    position: relative;
+    top:350px ;
+}
+
+#content .div_box2 .fusionSolarlist2 .img {
+    height: 260px;
+    position: relative;
+    float: none;
+}
+#content .div_box2 .fusionSolarlist2 .img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 100%;
+}
+#content .div_box2 .fusionSolarlist2 .content .p1 {
+    font-size: 28px;
+    color: #5c5b5c;
+    margin-top: 30px;
+}
+#content .div_box2 .fusionSolarlist2 .content .p2 {
+    font-size: 16px;
+    color: #c4262a;
+    margin-top: 10px;
+    display: block;
+	font-weight: bold;
+}
+#content .div_box2 .fusionSolarlist2 .content .p2:hover {
+    text-decoration: underline;
+}
+
+/* 处理产品数量多的样式 */
+#content .div_box2>.row>.col-sm-4 {
+	margin-bottom: 30px;
+}
+#content .div_box3 .box3_title {
+	margin-top: 16px;
+}
+/* 处理产品数量多的样式 */
+
+#content .div_box3 .fusionSolarlist3 {
+    /* margin-top: 46px; */
+    padding: 50px;
+}
+
+
+#content .div_box3 .fusionSolarlist3 .img {
+    height: 280px;
+    position: relative;
+}
+#content .div_box3 .fusionSolarlist3 .img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 80%;
+}
+#content .div_box3 .fusionSolarlist3 .content .p1 {
+    font-size: 28px;
+    color: #000;
+    margin-top: 30px;
+}
+#content .div_box3 .fusionSolarlist3 .content .p2 {
+    margin-top: 30px;
+    font-size: 16px;
+    color: #666;
+    line-height: 24px;
+}
+#content .div_box3 .fusionSolarlist3 .content .p3 {
+    font-size: 16px;
+    color: #c4262a;
+    display: block;
+	font-weight: bold;
+}
+#content .div_box3 .fusionSolarlist3 .content .p3.firstp3 {
+    margin-top: 45px;
+}
+#content .div_box3 .fusionSolarlist3 .content .p3:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* 手机端样式调整 */
+@media (max-width:767px){
+    #content .more {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        max-width: 450px;
+        right: 0;
+        transform: translateX(100%);
+    }
+    #content .more .moreicon {
+        position: absolute;
+        left: -30px;
+        width: 30px;
+        height: 100%;
+        background-color: #1b3a64;
+    }
+    #content .more .moreicon img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    #content .more .mobileC {
+        font-size: 12px;
+        color: #fff;
+        padding: 15px 30px;
+        background: url("/style/images/display_y.png") no-repeat #1b3a64 10px center;
+        /* background: url("../img/products/display_y.png") no-repeat #1b3a64 10px center; */
+        visibility: hidden;
+        transition: all .5s;
+        transform: translateX(0);
+        opacity: 0;
+    }
+    #content .more .mobileC.active {
+        transition: all .5s;
+        visibility: visible;
+        transform: translateX(-100%);
+        opacity: 1; 
+    }
+    
+
+
+    #content .re .more {
+        left: 0;
+        transform: translateX(-100%);
+    }
+    #content .re .more .moreicon {
+        left: auto;
+        right: -30px;
+    }
+    #content .re .more .mobileC {
+        background: url("/style/images/display_z.png") no-repeat #1b3a64 right 10px center;
+        transform: translateX(0);
+    }
+    #content .re .more .mobileC.active {
+        transform: translateX(100%);
+    }
+    
+
+
+    #content .fusionSolar_tab {
+        height: 65px;
+    }
+    #content .fusionSolar_tab a {
+        line-height: 60px;
+    }
+    #content .div_box1 .box1_title,
+    #content .div_box2 .box2_title,
+    #content .div_box3 .box3_title {
+        font-size: 22px;
+        margin-top: 30px;
+    }
+    #content .div_box2 .box2_title {
+        margin-bottom: 30px;
+    }
+    #content .div_box1 .fusionSolarlist1 {
+        margin-top: 30px;
+        padding: 15px 0;
+        position: relative;
+        overflow: hidden;
+    }
+    #content .div_box1 .fusionSolarlist1.re {
+        padding: 15px 0;
+    }
+
+    #content .div_box1 .fusionSolarlist1.re .content {
+        text-align: left;
+        padding: 0 15px;
+        float: left;
+    }
+    #content .div_box1 .fusionSolarlist1.re .imgf {
+        float: right;
+    }
+
+    #content .div_box1 .fusionSolarlist1 .content {
+        float: right;
+        padding: 0 15px;
+    }
+    #content .div_box1 .fusionSolarlist1 .img img {
+        margin-top: 20px;
+        padding: 0 15px;
+    }
+    #content .div_box1 .fusionSolarlist1 .content .p1 {
+        font-size: 16px;
+    }
+    #content .div_box1 .fusionSolarlist1 .content .p3 {
+        font-size: 12px;
+    }
+
+    #content .div_box2 .fusionSolarlist2 {
+        margin-top: 30px;
+        padding: 15px 0;
+        overflow: hidden;
+        position: relative;
+    }
+
+    #content .div_box2 .fusionSolarlist2 .content .p1 {
+        font-size: 16px;
+        margin-top: 0px;
+    }
+    #content .div_box2 .fusionSolarlist2 .content .p2 {
+        font-size: 12px;
+        margin-top: 8px;
+    }
+
+    #content .div_box2 .fusionSolarlist2 .img {
+        height: auto;
+        float: left;
+    }
+    #content .div_box2 .fusionSolarlist2 .img img {
+        position: static;
+        /* padding: 0 15px; */
+    }
+    #content .div_box2 .fusionSolarlist2 .content {
+        padding: 0 15px;
+        float: right;
+        width: 51%;
+        margin-bottom: 10px;
+    }
+
+    #content .div_box3 .box3_title {
+        margin-bottom: 30px;
+    }
+    #content .div_box3 .fusionSolarlist3 .content {
+        padding: 0 15px;
+    }
+    #content .div_box3 .fusionSolarlist3 .content .p1 {
+        font-size: 16px;
+        color: #5c5b5c;
+        margin-top: 0px;
+    }
+    #content .div_box3 .fusionSolarlist3 .content .p3.firstp3 {
+        margin-top: 20px;
+    }
+    #content .div_box3 .fusionSolarlist3 .content .p3 {
+        margin-top: 0;
+        font-size: 12px;
+    }
+    #content .div_box3 .fusionSolarlist3 {
+        margin-top: 0;
+        padding: 30px 0;
+        overflow: hidden;
+        position: relative;
+        border-bottom: 1px solid #cccccc
+    }
+    #content .div_box3 .fusionSolarlist3 .img {
+        height: auto;
+    }
+    #content .div_box3 .fusionSolarlist3 .img img {
+        position: static;
+        width: 100%;
+        padding: 0 15px;
+    }
+}

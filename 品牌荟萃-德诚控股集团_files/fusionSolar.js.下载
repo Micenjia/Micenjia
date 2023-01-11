@@ -1,0 +1,40 @@
+var huawei = huawei || {};
+$(function ($) {
+    huawei.detailed()
+    if($(window).width()>=768){
+        huawei.fusionSolarlist2H()
+        huawei.fusionSolarlist3H()
+    }
+});
+
+huawei.fusionSolarlist2H = function() {
+    var hei=[];
+    for(var i = 0;i<$('.fusionSolarlist2').length;i++){
+        hei[i] = Math.max($('.fusionSolarlist2').eq(i).height())
+    }
+    hei=Math.max.apply(null,hei);
+    $('.fusionSolarlist2').css('height',hei+100+"px")
+}
+huawei.fusionSolarlist3H = function() {
+    var hei=[];
+    for(var i = 0;i<$('.fusionSolarlist3').length;i++){
+        hei[i] = Math.max($('.fusionSolarlist3').eq(i).height())
+    }
+    hei=Math.max.apply(null,hei);
+    $('.fusionSolarlist3').css('height',hei+100+"px")
+}
+
+huawei.detailed = function(){
+    $('.moreicon').on('click',function(){
+        for(var i = 0;i<$('.moreicon').length;i++){
+            $('.moreicon').eq(i).show()
+            $('.moreicon').eq(i).siblings('.mobileC').removeClass('active')
+        }
+        $(this).hide()
+        $(this).siblings('.mobileC').addClass('active')
+    })
+    $('.mobileC').on('click',function(){
+        $(this).removeClass('active')
+        $(this).siblings('.moreicon').show()
+    })
+}
