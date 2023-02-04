@@ -496,7 +496,9 @@ body {
 }
 
 .footer .content .list-row .item {
-    width: 17.66%; /* qujia */
+    margin-right: 3.5%;
+    width: fit-content;
+    /*  width: 16.66%; */
     display: inline-block;
     float: left;
     white-space: nowrap;
