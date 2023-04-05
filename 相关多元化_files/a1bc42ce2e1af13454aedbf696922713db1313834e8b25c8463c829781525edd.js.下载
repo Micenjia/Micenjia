@@ -1,0 +1,50 @@
+$(function () {
+  //banner pic
+  objectFitImages($('.banner img.bg'));
+  new Swiper('.banner .swiper-container', {
+    autoplay: true,
+    navigation: {
+      nextEl: '.banner .swiper-button-next',
+      prevEl: '.banner .swiper-button-prev',
+    },
+    scrollbar: {
+      el: '.banner .swiper-scrollbar',
+      draggable: true,
+    },
+  });
+
+  //section1
+  swiperStyle3('.section-1 .swiper-container', 4);
+
+  //section2
+  var s2swiper = new Swiper('.section-2 .container-full .swiper-container', {
+    navigation: {
+      nextEl: '.section-2 .container-full .swiper-button-next',
+      prevEl: '.section-2 .container-full .swiper-button-prev',
+    },
+  });
+  new TAB_SWIPER($('.section-2 .tab'), s2swiper);
+
+  //section3
+  swiperStyle2('.section-3', 6);
+
+  //最新动态
+  new TAB_SWIPER($('.section-4 .tab'));
+  $('.section-4 .tab a').on('click', function () {
+    $('.section-4 .tab-content').eq($(this).parent().index()).addClass('show').siblings().removeClass('show');
+  });
+
+  //scroll
+  new NewsTextList($('#news-list1'), $('.section-4').find('.news-box').eq(0));
+
+  //section5
+  swiperStyle1('.section-5');
+
+  //section8
+  new Swiper('.section-8 .swiper-container', {
+    navigation: {
+      nextEl: '.section-8 .swiper-button-next',
+      prevEl: '.section-8 .swiper-button-prev',
+    },
+  });
+});
