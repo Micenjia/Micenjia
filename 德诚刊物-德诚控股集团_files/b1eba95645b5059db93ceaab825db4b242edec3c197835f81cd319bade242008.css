@@ -1,0 +1,1152 @@
+/* 开发专用的全局css，不去动高保真给的样式以免后续被覆盖
+*/
+.icon-close:before {
+  content: "\e747";
+}
+
+.video-js .vjs-picture-in-picture-control {
+  display: none;
+}
+
+.video-js .vjs-big-play-button {
+  z-index: 1;
+}
+
+/* 所有swiper都隐藏不能点击的箭头 */
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 0;
+}
+
+/* 把banner描述文本的换行符解析出来 */
+.banner .text-box.text-center {
+  white-space: pre-line;
+}
+
+/* 视频高度设置 */
+.video-js.video-js.video-js {
+  height: auto;
+}
+@media (max-width: 991px) {
+  .video-js.video-js.video-js.video-js {
+    min-height: 45vw;
+  }
+}
+
+.textarea {
+  white-space: pre-line;
+}
+
+/* 重写视频播放按钮样式 */
+.video-js .vjs-big-play-button {
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 100%;
+  top: 50%;
+  left: 50%;
+  margin-left: -30px !important;
+  margin-top: -30px !important;
+  line-height: 2.6em;
+  border: 0 !important;
+  box-sizing: border-box;
+  background: url(/assets/image/d5f9ca4f201e2bff50c0f2285f0d1e6dc5eaf4ec4062d70685de83b7cd2a252e.png) no-repeat center/100%;
+}
+
+.video-js .vjs-big-play-button:hover {
+  background-color: transparent !important;
+  cursor: pointer;
+}
+
+.video-js .vjs-big-play-button .vjs-icon-placeholder:before,
+.vjs-icon-play:before {
+  content: "";
+}
+
+/* .news-list-box .news-box {
+    background-color: #f8f8f8;
+} */
+/* .news-text-list {
+    height: calc(100% - 30px) !important;
+} */
+
+/*本地修改 产品技术参数 */
+.container-technology p {
+  font-size: 1em;
+  color: #666;
+  line-height: 200%;
+}
+.container-technology p span {
+  line-height: 200%;
+}
+
+/*图片自适应*/
+.container-technology img {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+/* 富文本超链接默认样式 */
+.container-technology a {
+  color:#666;
+  text-decoration: underline;
+}
+.container-technology a:hover {
+  color: #000;
+}
+
+/* 样式字体自适应 */
+@media screen and (min-width: 1680px) {
+  .container-technology {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1440px) and (max-width: 1680px) {
+  .container-technology {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+  .container-technology {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container-technology {
+    font-size: 13px;
+  }
+}
+
+.container-technology tbody,
+table {
+  border: none;
+  width: 100% !important;
+}
+
+.container-technology td,
+tr {
+  border: none;
+}
+
+.container-technology td {
+  padding: 12px 12px;
+}
+
+.container-technology td p,
+.container-technology td div {
+  margin: 0;
+  font-size: 1em;
+  line-height: 200%;
+}
+
+.container-technology tr:first-child {
+  font-size: 16px;
+  font-family: "微软雅黑";
+  color: #fff;
+  background-color: #c7000b;
+  font-weight: bold;
+  border-bottom: 2px solid #ddd;
+}
+
+.container-technology tr:not(:first-child) {
+  font-size: 16px;
+  color: #666;
+  line-height: 24px;
+  border-bottom: 1px solid #ddd;
+  font-family: "微软雅黑";
+}
+@media (min-width: 992px) {
+  .header .content .link-box > a,
+  .header .content .link-box > span.link-slide-box {
+    margin: 0 1.75vw !important;
+    /* margin: 0 1.9vw !important; */
+  }
+  .header .content .link-box {
+    min-width: 1200px;
+    margin-left: 30px;
+  }
+}
+/* .container-technology td{
+    padding:12px 15px;
+} */
+
+/*综合智慧能源里面的解决方案图片样式*/
+.smart-energy-consult .container-custom img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+@media (min-width: 992px) {
+  .nosub-container.privacy-policy > .container,
+  .nosub-container > .container {
+    width: 85.652%;
+  }
+  .nosub-container.privacy-policy > .container h2,
+  .nosub-container.legal > .container h2 {
+    margin-bottom: 1.5rem;
+  }
+  .nosub-container.privacy-policy > .container > h1,
+  .nosub-container.legal > .container > h1 {
+    padding-top: 70px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    letter-spacing: 1px;
+  }
+  .nosub-container.privacy-policy > .container h3,
+  .nosub-container.legal > .container h3 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.5em !important;
+    letter-spacing: 1px;
+  }
+  .nosub-container.privacy-policy > .container p,
+  .nosub-container.legal > .container p {
+    line-height: 1.95em;
+    color: #666;
+    font-size: 1em;
+  }
+}
+@media (max-width: 991px) {
+  .nosub-container.privacy-policy > .container > h1,
+  .nosub-container.legal > .container > h1 {
+    text-align: center;
+    max-width: 1430.016px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  .nosub-container.privacy-policy > .container h3,
+  .nosub-container.legal > .container h3 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 1.5em !important;
+  }
+  .nosub-container.privacy-policy > .container p,
+  .nosub-container.legal > .container p {
+    line-height: 1.95em;
+    color: #666;
+    font-size: 1em;
+  }
+}
+@media (min-width: 991px) {
+  .partner .news-list-box {
+    justify-content: center;
+  }
+}
+p img,
+.news-detail img {
+  max-width: 100%;
+}
+.intelligent-electric-product .content-list .item-content.show .text-list {
+  justify-content: center;
+}
+.slide-box .row .btn-arrow2::after {
+  top: 55%;
+}
+@media (max-width: 991px) {
+  .btn-red {
+    min-width: 150px;
+  }
+}
+
+.technical .te {
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  padding-top: 30px;
+}
+@media (min-width: 1180px) {
+  .technical .te {
+    padding-top: 45px;
+  }
+}
+/* @media (max-width: 1580px){
+    .technical .te  {
+        width: calc(25% - 30px);
+    }
+}
+@media (max-width: 1180px) {
+    .technical .te  {
+        width: calc(33.333333% - 30px);
+    }
+} */
+
+.nosub-container.technical .btn {
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  html[lang="en-US"] .technical .popup .container a.btn {
+    overflow: hidden;
+    height: auto !important;
+    width: auto;
+    padding: 0 8px;
+  }
+  html[lang="en-US"] .technical .popup .container a.btn:first-of-type {
+    margin-left: 20px;
+  }
+  html[lang="en-US"] .technical .popup .container {
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+@media (max-width: 991px) {
+  html[lang="en-US"] .technical .popup .container a.btn {
+    line-height: 22px;
+  }
+}
+@media (max-width: 991px) {
+  .header .content .link-box .slide-box .title.partner {
+    display: block;
+    margin-top: 0;
+  }
+  .header .content .link-box .slide-box .title.partner > a {
+    line-height: 1em;
+    font-size: 20px;
+    color: #111;
+    margin-bottom: 0;
+    font-weight: 100;
+    font-size: 15px;
+  }
+}
+@media (min-width: 992px) {
+  .header .content .link-box .slide-box .title.partner > a {
+    display: block;
+    line-height: 1.5em;
+    font-size: 20px;
+    color: #666;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+}
+
+/* 数据中心能源3-18 大数据中心能源适配移动端 竖排 */
+@media (max-width: 991px) {
+  .data-center-detail .data-slides {
+    display: flex;
+    flex-flow: column;
+  }
+  /* 技术参数移动端超出自动滑动 */
+  .container-technology {
+    overflow: auto;
+  }
+}
+
+/* 头部partner箭头 */
+.btn-arrow3 {
+  position: relative;
+  padding-right: 20px;
+  color: #000;
+}
+
+.btn-arrow3:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.btn-arrow3:hover::after {
+  margin-left: 5px;
+}
+
+.btn-arrow3 span {
+  display: none;
+}
+
+/* 数据中心能源交通样式移动端靠左 */
+@media (max-width: 991px) {
+  .data-center-mobile-left {
+    text-align: left;
+  }
+}
+/* 嵌入式电源修改 */
+@media (max-width: 992px) {
+  .section-2 .title .pad15 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.main-content .induration .info1 {
+  -webkit-line-clamp: initial !important;
+  text-overflow: clip !important;
+}
+
+.header .content .language-box-m,
+.header .content .logout-box-m,
+.header .content .ucenter-box-m {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .header .content .language-box-m,
+  .header .content .logout-box-m, 
+  .header .content .ucenter-box-m {
+    position: absolute;
+    top: 66px;
+    left: 0;
+    display: none;
+  }
+  .header .content .language-box-m a,
+  .header .content .logout-box-m a,
+  .header .content .ucenter-box-m a {
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #fff;
+  }
+  .header .content .language-box-m a:last-child,
+  .header .content .logout-box-m a:last-child,
+  .header .content .ucenter-box-m a:last-child {
+    border-bottom: none;
+  }
+  .header .content .language-box-m,
+  .header .content .logout-box-m,
+  .header .content .ucenter-box-m {
+    position: absolute;
+    top: 66px;
+    left: 0;
+    width: 100%;
+    background: #606160;
+    padding: 0 30px;
+    display: none;
+  }
+  .header .content .language-box-m a,
+  .header .content .logout-box-m a,
+  .header .content .ucenter-box-m a {
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #fff;
+  }
+  .header .content .language-box-m a:last-child,
+  .header .content .logout-box-m a:last-child,
+  .header .content .ucenter-box-m a:last-child  {
+    border-bottom: none;
+  }
+  .header .content .link-group-m .user,
+  .header .content .link-group-m .login {
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    color: #fff;
+    background-size: 100%;
+    vertical-align: middle;
+    margin-right: 16px;
+    text-decoration: none;
+  }
+}
+
+.has-btn-more .more,
+.has-btn-more .more-btn {
+  display: none;
+}
+
+.crumb {
+  font-size: 14px;
+  color: #666666;
+  min-height: 80px;
+  line-height: 80px;
+  width: calc(85% - 30px);
+  margin: 0 auto;
+  max-width: 1920px;
+}
+.crumb > span {
+  cursor: default;
+}
+.crumb a {
+  color: #666666;
+}
+@media (max-width: 991px) {
+  .crumb {
+    min-height: 40px;
+    line-height: 40px;
+  }
+  .crumb span {
+    display: none;
+  }
+}
+.crumb.crumb-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.home_icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url(/assets/image/f175bc985c1055cf88e66ec3bbeb886f24ea17df217f14041bd2e3f92e9d0de1.png);
+  position: relative;
+  top: 5px;
+  margin-right: 5px;
+}
+
+.crumb_cilck {
+  cursor: pointer;
+}
+
+.crumb_cilck:hover a {
+  color: #333333;
+  text-decoration: underline;
+}
+
+.crumb_cilck:hover .home_icon {
+  background-image: url(/assets/image/4737bda68146d5457522c1caf249050550d3a49e79edde6720c1f2d72a7c15f9.png);
+}
+
+.crumb-banner .crumb_cilck .home_icon {
+  background-image: url(/assets/image/c827a332f764d83c3696b1b255865f9bc031a5718ac246de2a25cffd389c0bd1.png);
+}
+
+.crumb-banner .crumb_cilck:hover .home_icon {
+  background-image: url(/assets/image/53b2c7413f154feb294bd861c977577a305c83b38204efbedc7789cbe919d41f.png);
+}
+
+.crumb-banner {
+  padding: 0 calc(20vw - 200px);
+}
+
+.crumb-banner a,
+.crumb-banner span {
+  color: #ffffff;
+}
+
+.crumb-banner .crumb_cilck:hover a {
+  color: #999999;
+  text-decoration: underline;
+}
+
+.service-area-site-energy .title-detail {
+  font-family: MicrosoftYaHei;
+  font-weight: Regular;
+  font-size: 1em;
+  line-height: 150%;
+  text-indent: 15px;
+}
+.container-custom .card-box {
+  width: 100%;
+}
+.service-area-site-energy .section .solutionItem {
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.service-area-site-energy .section .solutionItem {
+  margin-bottom: 40px;
+  width: 100%;
+  background: #3e3a39;
+  height: 600px;
+  text-align: center;
+  position: relative;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+.service-area-site-energy .section .solutionItemPic {
+  /*position: absolute;left:50%;top:50%; transform: translate(-50%,-50%);*/
+  width: auto;
+  height: 480px;
+  /*background:#0f6674;*/
+  height: 100%;
+  position: relative;
+}
+
+.service-area-site-energy .section .solutionItemPic img {
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
+
+.service-area-site-energy .section .solutionItemMask {
+  cursor: pointer;
+  position: absolute;
+  left: 0px;
+  top: 0;
+  right: 0px;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.service-area-site-energy .section .solutionItemBox {
+  position: absolute;
+  left: 30px;
+  right: 30px;
+  top: 45%;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  text-align: center;
+}
+
+.service-area-site-energy .section .solutionItemTitle .icon {
+  padding-bottom: 20px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.service-area-site-energy .section .solutionItemSvg svg {
+  height: 42px;
+}
+
+.service-area-site-energy .section .solutionItemTitle h4 {
+  font-size: 24px;
+  color: #fff;
+  white-space: normal;
+}
+
+.service-area-site-energy .section .solutionItemTitle h4 span {
+  display: block;
+  margin: 10px auto;
+  background: #c50819;
+  width: 38px;
+  height: 2px;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.service-area-site-energy .section .solutionItemCententBox {
+  opacity: 0;
+  white-space: normal;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.service-area-site-energy .section .solutionItemCententBox p {
+  line-height: 1.5;
+  text-align: center;
+  font-size: 1em;
+  margin-bottom: 1em;
+  display: block;
+  max-width: 460px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+
+.service-area-site-energy .section .solutionItem,
+.service-area-site-energy .section .solutionItemPic {
+  height: 500px;
+}
+
+.service-area-site-energy .section .solutionItem .solutionItemBox {
+  top: 5%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.service-area-site-energy .section .solutionItem .solutionItemMask {
+  opacity: 0.8;
+}
+
+.service-area-site-energy .section .solutionItem .solutionItemSvg {
+  opacity: 0;
+}
+
+.service-area-site-energy .section .solutionItem .solutionItemTitle h4 span {
+  opacity: 0;
+}
+
+.service-area-site-energy .section .solutionItem .solutionItemCententBox {
+  opacity: 1;
+}
+
+.service-area-site-energy .link-box .link-list {
+  width: 100%;
+  text-align: center;
+  font-size: 22px;
+  color: #000000;
+  position: relative;
+  margin-top: 30px;
+}
+
+.service-area-site-energy .link-box .link-list img {
+  width: 227.5px;
+  height: 38px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -19px;
+  margin-left: -113.75px;
+  z-index: -1;
+}
+.service-area-site-energy .link-box .link-list a {
+  color: #000;
+}
+
+.service-area-site-energy .link-box .link-list a span {
+  color: #c7000b;
+  margin-left: 12px;
+}
+@media (min-width: 992px) {
+  .card-box .card-list .card-item.active .content-text {
+    background: rgba(255, 255, 255, 0.75);
+  }
+  .service-area-site-energy .container-custom .title {
+    padding-top: 46px;
+  }
+  .service-area-site-energy .link-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  .service-area-site-energy .link-box .link-list {
+    width: 33.3%;
+    text-align: center;
+    font-size: 1.25em;
+    color: #000000;
+    position: relative;
+  }
+
+  .service-area-site-energy .link-box .link-list img {
+    width: 205px;
+    height: 34px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -17px;
+    margin-left: -102.5px;
+    z-index: -1;
+  }
+
+  .service-area-site-energy .section .solutionItem .solutionItemBox {
+    top: 45%;
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+
+  .service-area-site-energy .section .solutionItem .solutionItemMask {
+    opacity: 1;
+  }
+
+  .service-area-site-energy .section .solutionItem .solutionItemSvg {
+    opacity: 1;
+  }
+
+  .service-area-site-energy .section .solutionItem .solutionItemTitle h4 span {
+    opacity: 1;
+  }
+
+  .service-area-site-energy .section .solutionItem .solutionItemCententBox {
+    opacity: 0;
+  }
+
+  .service-area-site-energy .section .screenSolutionBox {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .service-area-site-energy .section .solutionListBox {
+    white-space: nowrap;
+    overflow: hidden;
+    display: table;
+    /*父元素必须设置为table*/
+    table-layout: fixed;
+    /*这个属性一定要有，否则达不到效果*/
+    width: 100%;
+    margin-top: 1.6em;
+  }
+
+  .service-area-site-energy .section .solutionItem {
+    margin-bottom: 0;
+    display: table-cell;
+    width: 33.33%;
+  }
+
+  .service-area-site-energy .section .solutionItem,
+  .service-area-site-energy .section .solutionItemPic {
+    height: 600px;
+  }
+  .service-area-site-energy .section .solutionItem.M4:hover {
+    width: 59.5%;
+  }
+
+  .service-area-site-energy .section .solutionItem.M3:hover {
+    width: 39.5%;
+  }
+
+  .service-area-site-energy .section .solutionItem:hover .solutionItemMask {
+    opacity: 0.5;
+  }
+
+  .service-area-site-energy
+    .section
+    .solutionItem:hover
+    .solutionItemTitle
+    .icon {
+    opacity: 0;
+  }
+
+  .service-area-site-energy
+    .section
+    .solutionItem:hover
+    .solutionItemTitle
+    h4
+    span {
+    opacity: 0;
+  }
+
+  .service-area-site-energy
+    .section
+    .solutionItem:hover
+    .solutionItemCententBox {
+    opacity: 1;
+    /*display: inline;*/
+  }
+
+  .service-area-site-energy .section .solutionItem:hover .solutionItemBox {
+    top: 15%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .service-area-site-energy .section .solutionItem.M4:hover {
+    width: 85.5%;
+  }
+  .service-area-site-energy .section .solutionItem.M3:hover {
+    width: 78.5%;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+  .service-area-site-energy .section .solutionItem.M4:hover {
+    width: 73.5%;
+  }
+  .service-area-site-energy .section .solutionItem.M3:hover {
+    width: 68.5%;
+  }
+}
+/*pc*/
+.text-box .text h4.st-h {
+  font-size: 20px !important;
+}
+
+.text-box .text p.st-p {
+  font-size: 18px;
+}
+
+/*移动端*/
+@media (max-width: 991px) {
+  .text-box .text h4.st-h {
+    font-size: 16px !important;
+  }
+
+  .text-box .text p.st-p {
+    font-size: 14px;
+  }
+}
+.user-name {
+  max-width: 185px;
+  display: block;
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  float: right;
+}
+@media (max-width: 991px) {
+  .user-name {
+    max-width: 130px;
+  }
+}
+.story-container dl,
+.story-container ol,
+.story-container ul {
+  padding: revert;
+}
+.story-container ul {
+  list-style-type: inherit;
+}
+.story-container dl li,
+.story-container ol li,
+.story-container ul li {
+  list-style-type: inherit;
+}
+
+.energy-cloud-friend .text-box {
+    position: relative;
+    /* left: -82px; */
+    left: 10px;
+}
+
+.energy-cloud-friend .text-title {
+    font-weight: Bold;
+    /* font-size: 1.5em; */
+    font-size: 30px;
+    /* line-height: 9px; */
+    color: #000000;
+    position: absolute;
+    top: 17%;
+    left: 0;
+}
+
+.energy-cloud-friend .text-title:after {
+    display: block;
+    position: absolute;
+    width: 5.8125em;
+    height: 1px;
+    /* background: #C7000B; */
+    left: 0;
+    top: 2em;
+    content: "";
+}
+
+.energy-cloud-friend .text-box .title-detail {
+    /* font-size: 1.125em; */
+    font-size: 18px;
+    line-height: 1.6875em;
+    color: #000;
+    width: 33.75em;
+    color: #000000;
+    position: absolute;
+    top: 28%;
+    left: 0;
+}
+
+.energy-cloud-friend .text-box .title-detail .box-list-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    margin-top: .5em;
+    display: none;
+}
+
+.energy-cloud-friend .text-box .title-detail .box-list-mobile .list-mobile {
+    justify-content: center;
+    width: 13.5em;
+    height: 2.6077em;
+    background: #fff;
+    line-height: 2.6077em;
+    margin: .5em auto 0;
+}
+
+.energy-cloud-friend .text-box .title-detail .box-list-mobile .list-mobile img {
+    width: 2em;
+    height: 2em;
+    margin: 0 0.9em;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}
+
+.energy-cloud-friend .text-box .title-detail .box-list-mobile .list-mobile a {
+    color: #000;
+    font-size: 1em;
+}
+
+.energy-cloud-friend .text-box .list-content {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+    height: 49%;
+}
+
+.energy-cloud-friend .text-box .box-list {
+    position: relative;
+    margin-right: 10px;
+    width: 16.3%;
+    height: 70%;
+    /* width: 237px;
+    height: 237px; */
+    background: rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    border-radius: 5px;
+}
+
+.energy-cloud-friend .text-box .box-list .start_box {
+    visibility: visible;
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.3s;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.energy-cloud-friend .text-box .box-list .start_box .get_more {
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 22%;
+    width: 100%;
+}
+
+.energy-cloud-friend .text-box .box-list .start_box .get_more a {
+    color: #333;
+    display: block;
+    height: 26px !important;
+    line-height: 24px !important;
+    text-decoration: none;
+    padding: 0 15px;
+    text-align: center;
+    font-size: 1em;
+    margin: 0 auto;
+}
+
+.energy-cloud-friend .text-box .box-list .start_box .get_more:hover a {
+    color: #c7000b;
+    text-decoration: none;
+}
+
+.energy-cloud-friend .text-box .box-list .icon_center {
+    margin: 0 auto 10%;
+    width: 51%;
+    padding-top: 10%;
+    /* height: 31.378%; */
+}
+
+.energy-cloud-friend .text-box .box-list .icon_center .img_box {
+    width: 100%;
+    height: 100%;
+}
+
+.energy-cloud-friend .text-box .box-list .icon_center .img_box img {
+    width: 100%;
+    height: 100%;
+}
+
+.energy-cloud-friend .text-box .box-list .start_title {
+    /* font-size: 1.125em; */
+    font-size: 16px; 
+    font-weight: bold;
+    line-height: 2em;
+    padding:0.125em 0;
+    text-align: center;
+    width: 100%;
+    height: 30%;
+}
+
+.energy-cloud-friend .text-box .box-list .start_title:hover {
+    text-decoration: none;
+    color: #c7000b;
+}
+@media (max-width:991px) {
+    .energy-cloud-friend .text-box .list-content{
+        display: none;
+    }
+
+    .energy-cloud-friend .text-box .title-detail {
+        width: 100%;
+        top:5.5em;
+        line-height: 1.25em;
+        font-size: 1em;
+    }
+
+    .energy-cloud-friend .text-title {
+        top: 3%;
+        font-size: 1.538em;
+        line-height: 0.92em;
+        color: #000000;
+    }
+
+    .energy-cloud-friend .text-box .title-detail .box-list-mobile {
+        display: block;
+    }
+}
+@media (min-width:375px) and (max-width:991px){
+    .energy-cloud-friend .text-box .title-detail {
+        top:6.5em;
+    }
+}
+.ecology-detail .banner .text-box {
+    /* top: 30%; */
+    top: 40%;
+    color: #000;
+    left: 183px;
+}
+
+.ecology-detail .banner .ecology-detail-title {
+    position: relative;
+    /* font-size: 2.375em; */
+    font-size: 38px;
+}
+
+.ecology-detail .banner .ecology-detail-title::after {
+    display: block;
+    content: '';
+    width: 149px;
+    height: 2px;
+    /* background: #C7000B; */
+    position: absolute;
+    bottom: -0.5em;
+    left: 0;
+}
+
+.ecology-detail .banner .ecology-detail-text {
+    /* font-size: 1.25em;
+    line-height: 30px; */
+    font-size: 20px;
+    line-height: 40px;
+    /* margin-top: 2.25em */
+    margin-top: 45px
+
+}
+
+@media (max-width:991px) {
+    .ecology-detail .banner .text-box {
+        top: 0%;
+        text-align: left;
+        font-size: 13px;
+        line-height: 22px;
+        -webkit-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        transform: translateY(0%);
+        left: 0px;
+    }
+
+    .ecology-detail .banner .text-box .ecology-detail-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .energy-cloud-friend .text-box {
+    left: 0;
+}
+   
+}
+/* 日语单词应用不换行的逻辑 */
+.wsn {
+  white-space: nowrap;
+}
