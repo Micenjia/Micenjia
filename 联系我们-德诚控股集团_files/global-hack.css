@@ -1,0 +1,10 @@
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head>
+<body>
+<center><h2><p>您提交的内容包含非法字符</p><p>或者IP不在授权访问列表内</p><p>请重新操作或联系管理员</p><p><a href="/" target="_top"><font color="red">点此返回网站首页</font></a></p><p><a href="javascript:history.back();"><font color="red">点此返回上一页面</font></a></p><p><font color="red">可能原因：Url非法</font></p></h2></center>
+<script type="text/javascript" language="javascript">
+if (top.location != self.location) {window.alert('可能原因：Url非法');}
+document.execCommand("stop");
+</script>
+</body>
+</html>
