@@ -1,0 +1,1038 @@
+.service-area .section-2 {
+    background-image: url('/assets/image/6582a59fd002cfb74cb9d43231b3f3ba203c452c5c1b0848b53e500408cc55d8.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 767px) {
+    .service-area .section-2 {
+        background-image: url('/assets/image/04e3b89ff4db1937a7b97d270adc160c47a4a2c1df1332548a739a670dd1cff5.jpg');
+    }
+}
+
+.service-area .section-2 .col-md-3 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+@media (max-width: 767px) {
+    .service-area .section-2 .col-md-3 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.service-area .section-2 .item-box {
+    background-color: #fbfbfb;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+}
+
+@media (max-width: 767px) {
+    .service-area .section-2 .item-box {
+        margin-bottom: 15px;
+    }
+}
+
+.service-area .section-2 .item-box .icon img {
+    width: 20%;
+}
+
+.service-area .section-2 .item-box .title {
+    color: #666666;
+    border-top: 1px solid #666666;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 0.875em;
+}
+
+@media (max-width: 767px) {
+    .service-area .section-6 .share-box {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+    }
+
+    .service-area .section-6 .share-box .title {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    /* 社媒移动端修改  lwx1110086 22/4/25*/
+    .service-area .section-6 .m-logo {
+        margin: 15px 15px !important;
+    }
+
+    .service-area .section-6 .align-center {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    html {
+        overflow-x: hidden;
+    }
+
+    /* 社媒移动端修改 完毕 */
+}
+
+.service-area .section-6 .title {
+    margin-right: 15px;
+}
+
+.service-area .section-6 .m-logo {
+    width: 40px;
+    margin: 0 15px;
+    position: relative;
+}
+
+.service-area .section-6 .m-logo img {
+    width: 100%;
+}
+
+.service-area .section-6 .m-logo .qr-img {
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+    bottom: 105%;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.service-area .section-6 .m-logo:hover .qr-img {
+    opacity: 1;
+    visibility: visible;
+}
+
+.service-area .solutionItem {
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.service-area .solutionItem {
+    margin-bottom: 40px;
+    width: 100%;
+    background: #3e3a39;
+    height: 600px;
+    text-align: center;
+    position: relative;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+.service-area .solutionItemPic {
+    /*position: absolute;left:50%;top:50%; transform: translate(-50%,-50%);*/
+    width: auto;
+    height: 600px;
+    /*background:#0f6674;*/
+    height: 100%;
+    position: relative;
+}
+
+.service-area .solutionItemPic img {
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+
+.service-area .solutionItemMask {
+    cursor: pointer;
+    position: absolute;
+    left: 0px;
+    top: 0;
+    right: 0px;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+.service-area .solutionItemBox {
+    position: absolute;
+    left: 30px;
+    right: 30px;
+    top: 45%;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    text-align: center;
+}
+
+.service-area .solutionItemTitle .icon {
+    padding-bottom: 20px;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.service-area .solutionItemSvg svg {
+    height: 42px;
+}
+
+.service-area .solutionItemTitle h4 {
+    font-size: 24px;
+    color: #fff;
+    white-space: normal;
+}
+
+.service-area .solutionItemTitle h4 span {
+    display: block;
+    margin: 10px auto;
+    background: #c50819;
+    width: 38px;
+    height: 2px;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.service-area .solutionItemCententBox {
+    /*display:none;*/
+    opacity: 0;
+    white-space: normal;
+}
+
+.service-area .solutionItemCententBox {
+    width: 76%;
+    width: 240px;
+    text-align: center;
+    margin: 0 auto;
+}
+.service-area .solutionItemCententBox.es {
+    width: 271px;
+    text-align: center;
+    margin: 0 auto;
+}
+@media (max-width: 992px) {
+    .service-area .solutionItemCententBox.es {
+    width: 240px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+.service-area .solutionItemCententBox .link-box {
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.service-area .solutionItemCententBox .link-box a {
+    margin-bottom: 10px;
+}
+
+.service-area .solutionItemCententBox p {
+    line-height: 1.5;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 1rem;
+    display: block;
+    max-width: 460px;
+    max-height: 300px;
+    overflow-y: scroll;
+    /*overflow: hidden;*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.service-area .solutionItemCententBox p::-webkit-scrollbar {
+    -webkit-appearance: none
+}
+
+.service-area .solutionItem,
+.service-area .solutionItemPic {
+    height: 500px;
+}
+
+.service-area .solutionItem .solutionItemBox {
+    top: 5%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.service-area .solutionItem .solutionItemMask {
+    opacity: 0.8;
+}
+
+.service-area .solutionItem .solutionItemSvg {
+    opacity: 0;
+}
+
+.service-area .solutionItem .solutionItemTitle h4 span {
+    opacity: 0;
+}
+
+.service-area .solutionItem .solutionItemCententBox {
+    opacity: 1;
+}
+
+@media (min-width: 992px) {
+    .service-area .solutionItem .solutionItemBox {
+        top: 45%;
+        -webkit-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        transform: translateY(0%);
+    }
+
+    .service-area .solutionItem .solutionItemMask {
+        opacity: 1;
+    }
+
+    .service-area .solutionItem .solutionItemSvg {
+        opacity: 1;
+    }
+
+    .service-area .solutionItem .solutionItemTitle h4 span {
+        opacity: 1;
+    }
+
+    .service-area .solutionItem .solutionItemCententBox {
+        opacity: 0;
+    }
+
+    .service-area .screenSolutionBox {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .service-area .solutionListBox {
+        white-space: nowrap;
+        overflow: hidden;
+        display: table;
+        /*父元素必须设置为table*/
+        table-layout: fixed;
+        /*这个属性一定要有，否则达不到效果*/
+        width: 100%;
+    }
+
+    .service-area .solutionItem {
+        margin-bottom: 0;
+        display: table-cell;
+        width: 33.33%;
+    }
+
+    .service-area .solutionItem,
+    .service-area .solutionItemPic {
+        height: 500px;
+    }
+
+    .service-area .solutionItem:hover {
+        width: 50%;
+    }
+
+    .service-area .solutionItem:hover .solutionItemMask {
+        opacity: 0.5;
+    }
+
+    .service-area .solutionItem:hover .solutionItemTitle .icon {
+        opacity: 0;
+    }
+
+    .service-area .solutionItem:hover .solutionItemTitle h4 span {
+        opacity: 0;
+    }
+
+    .service-area .solutionItem:hover .solutionItemCententBox {
+        opacity: 1;
+        /*display: inline;*/
+    }
+
+    .service-area .solutionItem:hover .solutionItemBox {
+        top: 10%;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+}
+
+@media (min-width: 1200px) {
+    .service-area .solutionItem,
+    .service-area .solutionItemPic {
+        height: 600px;
+    }
+}
+
+.service-area-ecology p.note {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-area-ecology .section-3 .item-list {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service-area-ecology .section-3 .item-box {
+    width: 50%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 767px) {
+    .service-area-ecology .section-3 .item-box {
+        margin: 0;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.service-area-ecology .section-3 .item-box a {
+    display: block;
+    border-bottom: 1px solid #707070;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.service-area-ecology .section-3 .item-box .title {
+    font-size: 1.125em;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: 52px;
+    margin-bottom: 15px;
+}
+
+.service-area-ecology .section-3 .item-box .time {
+    font-size: 1em;
+}
+
+.service-area-data-center .section-1 .item-box {
+    padding-top: 80px;
+}
+
+@media (max-width: 991px) {
+    .service-area-data-center .section-1 .item-box {
+        padding-top: 0;
+    }
+}
+
+.service-area-data-center .section-1 .item-box .pic {
+    z-index: 2;
+}
+
+.service-area-data-center .section-1 .item-box .pic img {
+    width: 100%;
+    -webkit-transform: translateY(-80px);
+    -ms-transform: translateY(-80px);
+    transform: translateY(-80px);
+}
+
+@media (max-width: 991px) {
+    .service-area-data-center .section-1 .item-box .pic img {
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+.service-area-data-center .section-1 .item-box .mask-bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 15px;
+    left: -37%;
+    background-color: #f5f5f5;
+}
+
+@media (max-width: 991px) {
+    .service-area-data-center .section-1 .item-box .mask-bg {
+        left: 15px;
+    }
+}
+
+.service-area-data-center .section-1 .item-box .text-box {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-right: 70px;
+    padding-left: 40px;
+}
+
+@media (max-width: 991px) {
+    .service-area-data-center .section-1 .item-box .text-box {
+        padding: 15px;
+    }
+}
+
+.service-area-data-center .section-1 .item-box .text-box .title span {
+    position: relative;
+    padding-bottom: 10px;
+    font-size: 1.5em !important;
+    font-weight: normal;
+}
+
+.service-area-data-center .section-1 .item-box .text-box .title span::before {
+    content: '';
+    height: 1px;
+    width: 30%;
+    background-color: #c7000b;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.service-area-data-center .section-1 .item-box .text-box p {
+    color: #333333;
+    margin: 0;
+}
+
+.service-area-data-center .section-1 .item-box.row-reverse .text-box {
+    padding-left: 70px;
+    padding-right: 40px;
+}
+
+@media (max-width: 991px) {
+    .service-area-data-center .section-1 .item-box.row-reverse .text-box {
+        padding: 15px;
+    }
+}
+
+.service-area-data-center .section-1 .item-box.row-reverse .mask-bg {
+    top: 0;
+    bottom: 0;
+    right: -37%;
+    left: 15px;
+}
+
+@media (max-width: 991px) {
+    .service-area-data-center .section-1 .item-box.row-reverse .mask-bg {
+        right: 15px;
+    }
+}
+
+.service-area-digital-energy .section-3 .item-box {
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    .service-area-digital-energy .section-3 .item-box {
+        margin-bottom: 15px;
+    }
+
+    .service-area-ecology .section-3 .item-box .title {
+        height: auto;
+    }
+}
+
+.service-area-digital-energy .section-3 .item-box img.bg {
+    width: 100%;
+}
+
+.service-area-digital-energy .section-3 .item-box .item-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.service-area-digital-energy .section-3 .item-box .item-content img.icon {
+    width: 25%;
+}
+
+.service-area-digital-energy .section-3 .item-box .item-content .title {
+    font-size: 1.25em;
+}
+
+.service-area-digital-energy .section-3 .item-box .item-content p {
+    font-size: 1em;
+}
+
+.service-area-photovoltaic {
+    font-family: 'HuaweiSans-Light';
+}
+
+.service-area-photovoltaic .section-2 .content-box {
+    overflow: visible;
+}
+
+@media (max-width: 767px) {
+    .service-area-photovoltaic .section-2 .col-md-4 {
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .service-area-photovoltaic .section-2 .col-md-4:last-child {
+        padding-bottom: 0;
+    }
+}
+
+.service-area-photovoltaic .section-2 .item-box {
+    background-color: #fff;
+    height: 100%;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+}
+
+.service-area-photovoltaic .section-2 .item-box .text-box {
+    padding: 15px;
+    padding-top: 0;
+}
+
+.service-area-photovoltaic .section-2 .item-box img.pic {
+    width: 100%;
+}
+
+.service-area-photovoltaic .section-2 .item-box img.icon {
+    width: 30%;
+}
+
+.service-area-photovoltaic .section-2 .item-box .title {
+    font-size: 1.5em;
+    color: #666666;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: end;
+    align-items: flex-end;
+    padding-bottom: 5%;
+}
+
+.service-area-photovoltaic .section-2 .item-box ul {
+    margin: 0;
+    padding-left: 15px;
+}
+
+.service-area-photovoltaic .section-2 .item-box ul li {
+    font-size: 1em;
+    color: #666666;
+    position: relative;
+    list-style-type: disc;
+}
+
+.service-area-photovoltaic .section-3 .item-content {
+    border: 1px solid #cccccc;
+    border-left: 0;
+    height: 100%;
+}
+
+@media (max-width: 767px) {
+    .service-area-photovoltaic .section-3 .item-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        border: 1px solid #cccccc;
+    }
+
+    .service-area-photovoltaic .section-3 .item-content .item-tab {
+        width: 100%;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+        height: 80px;
+    }
+}
+
+.service-area-photovoltaic .section-3 .text-box {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    right: 15px;
+    height: 100%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.service-area-photovoltaic .section-3 .text-box .title {
+    color: #000;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
+    font-size: 1.875rem;
+    text-align: center;
+    width: 100%;
+}
+
+.service-area-photovoltaic .section-3 .item-tab {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.service-area-photovoltaic .section-3 .item-tab div {
+    background-color: #cccccc;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 80px;
+    -webkit-box-flex: 1;
+    flex: 1;
+    cursor: pointer;
+}
+
+.service-area-photovoltaic .section-3 .item-tab div svg {
+    fill: #999;
+}
+
+.service-area-photovoltaic .section-3 .item-tab div.selected,
+.service-area-photovoltaic .section-3 .item-tab div:hover {
+    background-color: #c7000b;
+}
+
+.service-area-photovoltaic .section-3 .item-tab div.selected svg,
+.service-area-photovoltaic .section-3 .item-tab div:hover svg {
+    fill: #fff;
+}
+
+.service-area-photovoltaic .section-3 .tab-content-box {
+    width: 100%;
+}
+
+.service-area-photovoltaic .section-3 .tab-content {
+    padding: 15px 10%;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: none;
+}
+
+.service-area-photovoltaic .section-3 .tab-content.show {
+    display: -webkit-box;
+    display: flex;
+}
+
+.service-area-photovoltaic .section-3 .tab-content .title {
+    font-size: 1.625em;
+    color: #333333;
+}
+
+.service-area-photovoltaic .section-3 .tab-content p {
+    margin: 0;
+    font-size: 1.25em;
+    color: #666666;
+}
+
+.service-area-photovoltaic .section-3 .tab-content p span {
+    width: 60px;
+    display: inline-block;
+}
+
+.service-area-photovoltaic .section-3 .tab-content .code {
+    width: 40%;
+}
+
+.service-area-support {
+    font-family: 'HuaweiSans-Light';
+}
+
+.service-area-support .banner .bottom-link {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 15%;
+}
+
+.service-area-support .banner .bottom-link .link-box {
+    position: relative;
+    width: 100%;
+}
+
+.service-area-support .banner .bottom-link .link-box .swiper-button-next,
+.service-area-support .banner .bottom-link .link-box .swiper-button-prev {
+    width: 16px;
+    display: none;
+}
+
+.service-area-support .banner .bottom-link a {
+    color: #fff;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0 2.6%;
+}
+
+.service-area-support .banner .bottom-link a img.icon {
+    width: 25%;
+}
+
+.service-area-support .banner .bottom-link a p {
+    margin: 0;
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    .service-area-support .banner {
+        position: relative;
+        background-image: url('/assets/image/59f4202de62c6ed3e2280628941b7e3a83697d8d79a5096f833272ec85c35b8c.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .service-area-support .banner .text-box {
+        position: static;
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        transform: translate(0, 0);
+        padding: 70px 15px;
+    }
+
+    .service-area-support .banner .bottom-link {
+        padding: 10px 0;
+        position: static;
+    }
+
+    .service-area-support .banner .bottom-link .link-box .swiper-container .swiper-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .service-area-support .banner .bottom-link .link-box .swiper-container .swiper-wrapper .swiper-slide {
+        padding: 10px;
+        width: 33.333333%;
+    }
+
+    .service-area-support .banner .bottom-link .link-box .swiper-container .swiper-wrapper .swiper-slide a img.icon {
+        width: 30%;
+    }
+}
+
+.service-area-support .section-1 .item-box {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+    .service-area-support .section-1 .item-box {
+        padding-bottom: 15px;
+    }
+}
+
+.service-area-support .section-1 .item-box .bg {
+    float: left;
+}
+
+.service-area-support .section-1 .item-box .item-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 0 10%;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 767px) {
+    .service-area-support .section-1 .item-box .item-content {
+        padding: 0 15px;
+    }
+}
+
+.service-area-support .section-1 .item-box .item-content .title {
+    position: relative;
+}
+
+.service-area-support .section-1 .item-box .item-content .title span {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.service-area-support .section-1 .item-box .item-content .title span::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 30%;
+    height: 2px;
+    background-color: #c7000b;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.service-area-support .section-1 .item-box .item-content p {
+    overflow: hidden; color:#fff;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.service-area-support .section-1 .item-box .item-content .btn-box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    width: 100%;
+}
+
+.service-area-support .section-1 .item-box .item-content .btn-box a {
+    margin: 0 10px;
+}
+
+.service-area-support .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    display: none;
+}
+
+.service-area-support .popup.show {
+    display: block;
+}
+
+.service-area-support .popup .popup-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+}
+
+@media (max-width: 767px) {
+    .service-area-support .popup .popup-box {
+        left: 15px;
+        right: 15px;
+        -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+        transform: translate(0, -50%);
+        width: auto;
+    }
+}
+
+.service-area-support .popup .popup-box .title {
+    background-color: #e8e8e8;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 1.375em;
+    font-weight: bold;
+}
+
+.service-area-support .popup .popup-box .popup-content {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.service-area-support .popup .popup-box .popup-content .item-content {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    margin: 0 30px;
+    padding: 30px 0;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#f6f6f6));
+    background-image: linear-gradient(#fff, #f6f6f6);
+}
+
+.service-area-support .popup .popup-box .popup-content .item-content p {
+    margin: 0;
+}
+
+.service-area-support .popup .popup-box .popup-content .item-content .icon {
+    width: 40%;
+}
+
+.service-area-support .popup .popup-box a.btn-close {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    z-index: 2;
+    text-decoration: none;
+    text-align: center;
+    line-height: 32px;
+    right: 5px;
+    top: 5px;
+}
+
+.service-area-support .popup .popup-box a.btn-close::before,
+.service-area-support .popup .popup-box a.btn-close::after {
+    content: '';
+    height: 2px;
+    width: 80%;
+    background-color: #666;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%) rotate(45deg);
+    -ms-transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.service-area-support .popup .popup-box a.btn-close::after {
+    -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+    -ms-transform: translate(-50%, -50%) rotate(-45deg);
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
