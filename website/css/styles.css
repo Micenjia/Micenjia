@@ -1,0 +1,106 @@
+
+ #header {
+    /* z-index: 100;
+    transform: translateY(0);
+    transition: transform 0.3s ease; */
+} 
+
+#header.hidden {
+    transform: translateY(-100%);
+}
+
+#tab-container {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+#tab-container.sticky {
+    transform: translateY(0);
+    transition: transform 0.3s ease;
+}
+
+#tab {
+    background-color: whitesmoke;
+    color: grey;
+    /* padding: 1rem 5%; */
+    font-size: 1.15rem;
+    transition: height 0.3s ease;
+    height: 3rem;
+}
+/* #tab-anchor:target {
+    height: 75px;
+} */
+nav ul{
+    margin: 0;
+    padding: 0 3.1%;
+}
+nav ul li {            
+    float: left;         
+    list-style: none;        
+ }  
+ nav ul li a { 
+    display: inline-block;  
+    /* 让竖线和文字对齐 */  
+    vertical-align: middle;   
+    padding:  10px 20px 10px 0px;
+    text-decoration: none;  
+    color: #666666;     
+    font-weight: bold;  
+  } 
+  .move{
+    /* height: 4px; */
+    width: 100px;
+    border-top: 4px solid #e8000D;/*只需要将上边显示出来*/
+    position: relative;
+    left: -22.9%;
+    top: 42px;
+    transition: left .2s ease-in-out 0s;/*包含四个过度属性：执行变换属性、执行时间、速率、延迟*/
+    -webkit-transition: left .2s ease-in-out 0s;/*chrome和safari*/
+    -moz-transition: left .2s ease-in-out 0s;/*firefox*/
+    -o-transition: left .2s ease-in-out 0s;/*opera*/
+}
+li:nth-child(1):hover~ .move{    /*li元素的父元素的第一个子元素，当鼠标停留其上时，move元素的left属性改变*/
+    left: -22.9%;
+}
+li:nth-child(2):hover~ .move{
+    left: -15.3%;
+}
+li:nth-child(3):hover~ .move{
+    left: -7.5%;
+}
+/* li:nth-child(4):hover~ .move{
+    left: 220px;
+}
+li:nth-child(5):hover~ .move{
+    left: 330px;
+}
+li:nth-child(6):hover~ .move{
+    left: 550px;
+} */
+
+ 
+/* li:hover ~ li::before {
+    left: 0;
+} */
+
+
+
+main {
+    min-height: 2000px;
+    padding: 1rem;
+}
+a{
+    text-decoration: none;
+}
+
+.threeOne{
+    padding: 0 3.1%;
+}
+
+a.active{
+    color: #f0f0f0;
+    font-size: 2em;
+    display: none;
+}
+
+/* 品牌理念 */
