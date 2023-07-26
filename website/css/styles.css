@@ -132,7 +132,7 @@ a.active {
 
 @media (min-width: 992px) {
     .container-product {
-        width: 95%;
+        width: 100%;
         max-width: 1880px;
     }
     #tab{
