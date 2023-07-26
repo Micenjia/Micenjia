@@ -2,7 +2,9 @@
 *,::after,::before{box-sizing:border-box}
 html{font-family:sans-serif;line-height:1.15;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent}
 article,aside,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}
- 
+html{
+    scroll-padding-top: 75px;
+  }
 [tabindex="-1"]:focus:not(:focus-visible){outline:0!important}
 hr{box-sizing:content-box;height:0;overflow:visible}
 h1,h2,h3,h4,h5,h6{margin-top:0;margin-bottom:.5rem}
