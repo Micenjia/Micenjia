@@ -13,6 +13,51 @@
     .vjs-fluid {
       padding-top: 56.25%
     }
+    @media (min-width: 992px) {
+      .slide-box {
+        margin-left: -30px;
+      }
+
+      .news-list-box3 .col-md-4 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50% !important;
+      }
+
+      .news-list-box2 .col-md-4 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50% !important;
+      }
+
+      .container-custom {
+        width: 100% !important;
+        max-width: 1430px !important;
+      }
+
+      .hidden-wap {
+        display: none;
+      }
+
+      .mb70 {
+        padding-bottom: 0px !important;
+        margin-bottom: 0px !important;
+      }
+    }
+
+    @media (max-width: 991px) {
+
+      .link-box .btn-arrow3,
+      .link-box .btn-arrow3>span {
+        font-size: 14px;
+        color: #4d4c4d !important;
+        font-weight: 400;
+      }
+
+      .hidden-pc {
+        display: none;
+      }
+    }
   </style>
 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -54,8 +99,7 @@
 </head>
 
 <body>
-
-  <div class="header" id="header">
+  <div class="header" id="header"> 
     <div class="topbar">
       <div class="link-group">
         <span href="javascript:;" class="en">
@@ -88,17 +132,19 @@
             <div class="row">
               <div class="col-md-3"></div>
               <div class="col-md-2">
-                <div class="title">企业介绍</div>
+                <a href="./about.html" class="title">企业介绍</a>
                 <a href="./about.html">企业介绍</a>
+                <a href="./about.html#history">发展历程</a>
+                <a href="./about.html#honor">企业荣誉</a>
               </div>
               <div class="col-md-2">
-                <div class="title">企业文化</div>
+                <a href="./culture.html"class="title">企业文化</a>
                 <a href="./culture.html">企业理念</a>
-                <a href="./about.html">发展历程</a>
-                <a href="./magazine.html">德诚刊物</a>
+                <a href="./culture.html#mission">使命和愿景</a>
+                <a href="./culture.html#story">德诚故事</a>
               </div>
               <div class="col-md-2">
-                <div class="title">联系我们</div>
+                <a href="./contact-us.html" class="title">联系我们</a>
                 <a href="./contact-us.html">联系我们</a>
               </div>
             </div>
@@ -108,7 +154,7 @@
             <div class="row">
               <div class="col-md-3"></div>
               <div class="col-md-2">
-                <div class="title"> 业务范围</div>
+                <a href="./motor.html" class="title"> 业务范围</a>
                 <a href="./motor.html">摩托车</a>
 
                 <a href="./engine.html">摩托车发动机</a>
@@ -118,7 +164,7 @@
                 <a href="./agriculture-machine.html">农业机械</a>
               </div>
               <div class="col-md-2">
-                <div class="title">服务保证</div>
+                <a href="./server.html" class="title">服务保证</a>
                 <a href="./server.html">服务理念</a>
                 <a href="./server.html">售后网络</a>
                 <a href="./server.html">供应链支持</a>
@@ -131,15 +177,19 @@
             <div class="row">
               <div class="col-md-3"></div>
               <div class="col-md-2">
-                <div class="title">品牌运营</div>
-                <!-- <a href="./apsonic.html">品牌愿景</a> -->
+                <a href="./apsonic.html" class="title">摩托车</a>
                 <a href="./apsonic.html">APSONIC</a>
                 <a href="./apsonic-pro.html">APSONIC Pro</a>
                     <a href=" ./tsz.html">TSZ</a>
+              </div>
+              <div class="col-md-2">
+                <a href="./agbon.html" class="title">农业机械</a>
                 <a href="./agbon.html">AGBON</a>
+              </div>
+              <div class="col-md-2">
+                <a href="./mogu.html" class="title">售后服务</a>
                 <a href="./mogu.html">MOGU</a>
               </div>
-              <div class="col-md-3"></div>
             </div>
           </div>
         </span> <span class="line"></span> <span class="link-slide-box">员工关怀
@@ -147,39 +197,43 @@
             <div class="row">
               <div class="col-md-2"></div>
               <div class="col-md-2">
-                <div class="title"> 人才发展 </div>
-                <a href="./team.html">人才理念</a>
-                <a href="./team.html">培训与激励</a>
-                <a href="./team.html">新人成长计划</a>
+                <a href="./team.html" class="title"> 人才发展 </a>
+                <a href="./team.html">团队风采</a>
+                <a href="./team.html#talent">人才理念</a>
+                <a href="./team.html#training">培训与激励</a>
+                <a href="./team.html#growth">新人成长计划</a>
               </div>
               <div class="col-md-2">
-                <div class="title">工作环境</div>
+                <a href="./work-environment.html" class="title">工作环境</a>
                 <a href="./work-environment.html">国内工作</a>
-                <a href="./work-environment.html">外派生活</a>
+                <a href="./work-environment.html#abroad">外派生活</a>
               </div>
               <div class="col-md-2">
-                <div class="title">员工活动</div>
-                <a href="./team.html">活动</a>
-                <a href="./team.html">员工活动</a>
+                <a href="./activities.html" class="title">员工活动</a>
+                <a href="./activities.html">员工活动</a>
               </div>
               <div class="col-md-2">
-                <div class="title">加入我们</div>
-                <a href="./team.html">社会招聘</a>
-                <a href="./team.html">校园招聘</a>
+                <a href="./recruitment.html" class="title">加入我们</a>
+                <a href="./recruitment.html">社会招聘</a>
+                <a href="./campus-recruitment.html">校园招聘</a>
               </div>
             </div>
           </div>
-        </span> <span class="line"></span> <span class="link-slide-box">新闻中心
+        </span> <span class="line"></span> <span class="link-slide-box">媒体中心
           <div class="slide-box">
             <div class="row">
               <div class="col-md-3"></div>
               <div class="col-md-2">
-                <div class="title"> 企业新闻 </div>
+                <a href="./news.html" class="title"> 企业新闻 </a>
                 <a href="./news.html">企业新闻</a>
               </div>
               <div class="col-md-2">
-                <div class="title"> 德诚故事 </div>
-                <a href="./news.html">德诚故事</a>
+                <a href="./magazine.html" class="title"> 德诚刊物 </a>
+                <a href="./magazine.html">德诚之窗 </a>
+              </div>
+              <div class="col-md-2">
+                <a href="./video.html" class="title"> 德诚映像 </a>
+                <a href="./video.html">德诚映像</a>
               </div>
             </div>
           </div>
@@ -187,13 +241,10 @@
           <div class="slide-box">
             <div class="row">
               <div class="col-md-3"></div>
-              <div class="col-md-2 about-us">
-                <div class="title">社会公益</div>
-                <div class="recruiting"> <a href="./gongyi.html">社会公益</a> </div>
-              </div>
-              <div class="col-md-2 about-us">
-                <div class="title">社会荣誉</div>
-                <div class="recruiting"> <a href="./gongyi.html">社会荣誉</a> </div>
+              <div class="col-md-2">
+                <a href="./commonweal.html" class="title">社会公益</a>
+                  <a href="./commonweal.html">社会公益</a> 
+              
               </div>
               <div class="col-md-4"></div>
             </div>
@@ -206,7 +257,7 @@
         <div class="line"></div>
       </div>
     </div>
-  </div>
+  </div> 
 
   <div class="main">
     <div id="content_0_divImageBanner" class="h1style content-img-box  ">
@@ -326,23 +377,16 @@
     </div>
   </div>
 
-  <!-- 底部 -->
-
-  <!--[if IE 8]>
-   <script type="text/javascript" src="/Assets/corp/2020/js/lib/core-js.min.js"></script>
-   <script type="text/javascript" src="/Assets/corp/2020/js/lib/jquery-1.12.2.min.js"></script>
-<![endif]-->
-  <!--[if gt IE 8]><!-->
 
 
-  <script src="./js/34a370f617382ac527ffde75bc7457674b092bf30c19f7b6935a707810285ee5.js.下载"></script>
-  <script src="./js/ed3244d96fcc906cdd716dd00431d91f4456c79123fbbf64f0e6998671cd946b.js.下载"></script>
-  <script src="./js/a85d633155a2ee702386e27c7715f8ad632529106f24cf2956709d8cd6493674.js.下载"></script>
-  <script src="./js/58bbc8de5a744bd7da70000d73a641f99241f9568283366ffb933faf2e1746a2.js.下载"></script>
-  <script src="./js/5e6e427d9b363ad20ff949ee70aa93313949283125c0201542f874972d04a0dc.js.下载"></script>
-  <script src="./js/042d26c9587899568999678ca477f9b9632c89a7e497408bf79adcaadce0e8fd.js.下载"></script>
-  <script src="./js/d4082a7e9a7efdf97b871baf54a846bd359d9813eaa52b7147b603f6608b5e6a.js.下载"></script>
-  <script src="./js/36ef403b957e414b9c79a24ef5d7b87854a4b8863e06eeae9a9b772748ccf9e8.js.下载"></script>
+    <script src="./js/34a370f617382ac527ffde75bc7457674b092bf30c19f7b6935a707810285ee5.js.下载"></script>
+    <script src="./js/ed3244d96fcc906cdd716dd00431d91f4456c79123fbbf64f0e6998671cd946b.js.下载"></script>
+    <script src="./js/a85d633155a2ee702386e27c7715f8ad632529106f24cf2956709d8cd6493674.js.下载"></script>
+    <script src="./js/58bbc8de5a744bd7da70000d73a641f99241f9568283366ffb933faf2e1746a2.js.下载"></script>
+    <script src="./js/5e6e427d9b363ad20ff949ee70aa93313949283125c0201542f874972d04a0dc.js.下载"></script>
+    <script src="./js/042d26c9587899568999678ca477f9b9632c89a7e497408bf79adcaadce0e8fd.js.下载"></script>
+    <script src="./js/d4082a7e9a7efdf97b871baf54a846bd359d9813eaa52b7147b603f6608b5e6a.js.下载"></script>
+    <script src="./js/36ef403b957e414b9c79a24ef5d7b87854a4b8863e06eeae9a9b772748ccf9e8.js.下载"></script>
 
 
 </body>
