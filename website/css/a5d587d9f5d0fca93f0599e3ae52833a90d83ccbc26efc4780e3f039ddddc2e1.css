@@ -266,7 +266,7 @@
 .about .section:nth-child(4) .history-content {
   display: none;
   padding-top: 25px;
-  padding-left: 20%;
+  padding-left: 10%;
 }
 .about .section:nth-child(4) .history-content.active {
   display: block;
@@ -367,7 +367,23 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
- /* background: #333333;*/
+ background: #333333;
+  margin-right: 5px;
+  position: absolute;
+  top: 7px;
+  left: 0;
+}
+.about .section:nth-child(4) .history-list li:has(img)::before {
+  content: '';
+  width: 0;
+  height: 0;
+  /* border-top: 5px solid transparent;
+  border-left: 10px solid #333333;
+  border-bottom: 5px solid transparent; */
+  /* width: 8px; */
+  height: 8px;
+  border-radius: 50%;
+ /* background: #333333; */
   margin-right: 5px;
   position: absolute;
   top: 7px;
