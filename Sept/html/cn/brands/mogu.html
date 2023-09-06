@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <style class="vjs-styles-defaults">
+    .video-js {
+      width: 300px;
+      height: 150px;
+    }
+
+    .vjs-fluid {
+      padding-top: 56.25%
+    }
+
+    /* brand content */
+
+    .accordion ul li:nth-of-type(1) {
+      background: url(../../../img/mogu/mogu_concept.jpg);
+      background-size: cover;
+    }
+
+    .accordion ul li:nth-of-type(2) {
+      background: url(../../../img/mogu/mogu_orientation.jpg);
+      background-size: cover;
+    }
+
+    .accordion ul li:nth-of-type(3) {
+      background: url(../../../img/mogu/mogu_interpretation.jpg);
+      background-size: cover;
+    }
+
+  </style>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>MOGU--德诚控股集团</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="applicable-device" content="pc,mobile">
+  <link href="../../../css/f5b1a30f5810d95eee8ca59fc067be082635c3a0ba091df1e4eafcb21b39e709.css" rel="stylesheet">
+  <link href="../../../css/ce9a5cf58a1642f6e862844b7364301d979ca291650f1dbca7941f142cd71f80.css" rel="stylesheet">
+  <link href="../../../css/9929334878678a4c12b0fb8af1bb95279056dfd14c629fd6e655338edfcba6df.css" rel="stylesheet">
+  <link href="../../../css/ac4d7413aec6915a51dce670017d96db5d33f0c3f458f26261a405bd9eb14662.css" rel="stylesheet">
+  <link href="../../../css/ab70770483affb9d9e5c9fa58cc2aea03c954668bb80fcae536107666736f6fa.css" rel="stylesheet">
+  <link href="../../../css/b1eba95645b5059db93ceaab825db4b242edec3c197835f81cd319bade242008.css" rel="stylesheet">
+  <link href="../../../css/8595421aa4301c229d69f6fb2f2e7766977d07fe4945eb4dbe61489d0f2aeb2a.css" rel="stylesheet">
+  <link href="../../../css/a41f8cbee168d3d16137a76e7d98093f517d450257abc102292976a4be570a67.css" rel="stylesheet">
+  <link rel="icon" href="../../../img/common/icon.png">
+  <link rel="stylesheet" href="../../../css/rencai.css">
+  <style>
+    @media (min-width: 992px) {
+      .slide-box {
+        margin-left: -30px;
+      }
+    }
+
+    @media (max-width: 991px) {
+
+      .link-box .btn-arrow3,
+      .link-box .btn-arrow3>span {
+        font-size: 14px;
+        color: #4d4c4d !important;
+        font-weight: 400;
+      }
+    }
+  </style>
+  <!--[if lt IE 9]>
+<script src="/style/js/8674e3c429fa0fb8bae0059fc69128e5dda1b2a9a1ce7cc72363f54c55e8fd38.js"></script>
+<script src="/style/js/91d85c29cb04f541f366d7b505761985c7526b0f270925ab30a505d313e43fb7.js"></script>
+<![endif]-->
+  <script src="../../../js/fdafcd570f821cbe10fec58c924e23c06e41c947461b82a8e66e4f74e3c8077f.js"></script>
+  <!-- end head import file -->
+  <link href="../../../css/80b310877fe9093a58accf05c8498ab71a0939117fd127cd9cc8f5b287adc555.css" rel="stylesheet">
+  <link href="../../../css/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+  <script>
+    // 二级导航栏
+    document.addEventListener('DOMContentLoaded', function () {
+      const header = document.getElementById('header');
+      const banner = document.getElementById('banner');
+      const tabContainer = document.getElementById('tab-container');
+      const tab = document.getElementById('tab');
+      let headerHeight = header.offsetHeight;
+      let bannerHeight = banner.offsetHeight;
+
+      window.addEventListener('scroll', function () {
+        if (window.scrollY >= (headerHeight + bannerHeight - 30)) {
+          header.classList.add('hidden');
+          // header.style.display='none';
+          tabContainer.style.position = 'sticky';
+          tab.classList.add('expanded');
+        } else {
+          header.classList.remove('hidden');
+          tabContainer.style.position = 'static';
+          tab.classList.remove('expanded');
+        }
+      });
+    });
+    // 过渡动画
+    jQuery(document).ready(function ($) {
+      $(".scroll").click(function (event) {
+        event.preventDefault();
+        $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 500);
+      });
+    });
+
+
+    // function moveLine() {
+    //   const boxOne = document.getElementById('boxOne');
+    //   const boxTwo = document.getElementById('boxTwo');
+    //   const boxThree = document.getElementById('boxThree');
+    //   const list =document.getElementsByTagName('li');
+    //   const useScrollTop = () => {
+    //     return window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    //   }
+
+    //   let boxOneHeight = boxOne.offsetTop;//758
+    //   let boxTwoHeight = boxTwo.offsetTop;//3256
+    //   let boxThreeHeight = boxThree.offsetTop;//4591
+
+    //   if (useScrollTop < boxTwoHeight){
+    //       list[1].addEventListener.onmouseover;
+    //   }
+    //   else if(useScrollTop>=boxTwoHeight && useScrollTop <boxThreeHeight){
+    //     list[2].onmouseover;
+    //   }
+    //   else{
+    //     list[3].addEventListener.onmouseover;
+    //   }
+    // }
+    // moveLine();
+
+
+    //border line
+    // window.onscroll = function () {
+    //   let scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    //   console.log("滚动距离" + scrollTop);
+    //   const list = document.querySelectorAll('a');
+    //   if (scrollTop < 3150) {
+    //     document.getElementsByTagName('li')[0].style.borderBottom="2px solid #E8000D";
+    //     returen;
+    //   }
+    //   else if (scrollTop >= 3150 && scrollTop < 4485) {
+    //     document.getElementsByTagName('li')[1].style.borderBottom="2px solid #E8000D";
+    //     return;
+    //   }
+    //   else if (scrollTop >= 4485) {
+    //     document.getElementsByTagName('li')[2].style.borderBottom="2px solid #E8000D";
+    //     return;
+    //   }
+    // }
+
+
+
+  </script>
+</head>
+
+
+<body>
+
+  <div class="header" id="header">
+    <div class="topbar">
+      <div class="link-group">
+        <span href="javascript:;" class="en">
+          <span class=""><i class="bi bi-globe-asia-australia" style="font-size: 1rem;"></i></span>CN<span class="arrow"></span>
+          <div class="language-box">
+            <a href="../cn.html">China - 简体中文</a>
+            <a href="../../en/english.html">Global - English</a>
+            <a href="../../fr/fr.html">Français - 法语</a>
+          </div>
+        </span>
+        <span href="javascript:;" class="search">
+          <span class=""><i class="bi bi-search" style="font-size: 1rem;"></i></span>搜索
+          <div class="search-slide-box">
+            <input type="text" class="search-input" placeholder="搜索">
+            <a href="javascript:;" class="search-btn">
+              <span class="" style="color: #666666;"><i class="bi bi-search" style="font-size: 1.25rem;"></i></span>
+            </a>
+          </div>
+        </span>
+      </div>
+    </div>
+    <div class="content" style="position: relative; top: 0px;"> <a href="../cn.html" class="logo-link">
+        <picture>
+          <source media="(max-width: 991px)" srcset="../../../img/common/logo.png">
+          <source media="(min-width: 992px)" srcset="../../../img/common/logo.png">
+          <img src="../../../img/common/logo.png " class="logo" alt="logo">
+        </picture>
+      </a>
+      <div class="link-box"> 
+        <span class="link-slide-box">
+          <a href="../about/about.html" class="nav-border">关于德诚</a>
+          <div class="slide-box">
+            <div class="row">
+              <div class="col-md-3"></div>
+              <div class="col-md-2">
+                <a href="../about/about.html" class="title">企业介绍</a>
+                <a href="../about/about.html">企业介绍</a>
+                <a href="../about/about.html#history">发展历程</a>
+                <a href="../about/about.html#honor">企业荣誉</a>
+              </div>
+              <div class="col-md-2">
+                <a href="../about/culture.html" class="title">企业文化</a>
+                <a href="../about/culture.html">企业理念</a>
+                <a href="../about/culture.html#mission">使命和愿景</a>
+                <a href="../about/culture.html#story">德诚故事</a>
+              </div>
+              <div class="col-md-2">
+                <a href="../about/contact-us.html" class="title">联系我们</a>
+                <a href="../about/contact-us.html">联系我们</a>
+              </div>
+            </div>
+          </div>
+        </span>
+        <span class="line"></span> 
+        <span class="link-slide-box">
+          <a href="../products/motor.html" class="nav-border">产品与服务</a>
+          <div class="slide-box">
+            <div class="row">
+              <div class="col-md-3"></div>
+              <div class="col-md-2">
+                <a href="../products/motor.html" class="title"> 业务范围</a>
+                <a href="../products/motor.html">摩托车</a>
+                <a href="../products/engine.html">摩托车发动机</a>
+                <a href="../products/accessories.html">摩托车配件</a>
+                <a href="../products/agriculture-machine.html">农业机械</a>
+              </div>
+              <div class="col-md-2">
+                <a href="../products/services.html" class="title">服务保障</a>
+                <a href="../products/services.html">服务理念</a>
+                <a href="../products/services.html#afterSale">售后网络</a>
+                <a href="../products/services.html#chian">供应链支持</a>
+              </div>
+            </div>
+          </div>
+        </span>
+        <span class="line"></span> 
+        <span class="link-slide-box"> 
+        <a href="../brands/apsonic.html" class="nav-border">品牌运营</a>
+          <div class="slide-box">
+            <div class="row">
+              <div class="col-md-3"></div>
+              <div class="col-md-2">
+                <a href="../brands/apsonic.html" class="title">摩托车</a>
+                <a href="../brands/apsonic.html">APSONIC</a>
+                <a href="../brands/apsonic-pro.html">APSONIC Pro</a>
+                <a href="../brands/tsz.html">TSZ</a>
+              </div>
+              <div class="col-md-2">
+                <a href="../brands/agbon.html" class="title">农业机械</a>
+                <a href="../brands/agbon.html">AGBON</a>
+              </div>
+              <div class="col-md-2">
+                <a href="../brands/mogu.html" class="title">售后服务</a>
+                <a href="../brands/mogu.html">MOGU</a>
+              </div>
+            </div>
+          </div>
+        </span> <span class="line"></span> <span class="link-slide-box">
+          <a href="../staffs/team.html" class="nav-border">员工关怀</a>
+          <div class="slide-box">
+            <div class="row">
+              <div class="col-md-2"></div>
+              <div class="col-md-2">
+                <a href="../staffs/team.html" class="title"> 人才发展 </a>
+                <a href="../staffs/team.html">团队风采</a>
+                <a href="../staffs/team.html#talent">人才理念</a>
+                <a href="../staffs/team.html#training">培训与激励</a>
+                <a href="../staffs/team.html#growth">新人成长计划</a>
+              </div>
+              <div class="col-md-2">
+                <a href="../staffs/work-environment.html" class="title">工作环境</a>
+                <a href="../staffs/work-environment.html">国内工作</a>
+                <a href="../staffs/work-environment.html#abroad">外国发展</a>
+              </div>
+              <div class="col-md-2">
+                <a href="../staffs/activities.html" class="title">员工活动</a>
+                <a href="../staffs/activities.html">员工活动</a>
+              </div>
+              <div class="col-md-2">
+                <a href="../staffs/recruitment.html" class="title">加入我们</a>
+                <a href="../staffs/recruitment.html">社会招聘</a>
+                <a href="../staffs/campus-recruitment.html"us-recruitment.html">校园招聘</a>
+              </div>
+            </div>
+          </div>
+        </span> <span class="line"></span> <span class="link-slide-box">
+          <a href="../media/news/news.html" class="nav-border">媒体中心</a>
+          <div class="slide-box">
+            <div class="row">
+              <div class="col-md-3"></div>
+              <div class="col-md-2">
+                <a href="../media/news/news.html" class="title"> 企业新闻 </a>
+                <a href="../media/news/news.html">企业新闻</a>
+              </div>
+              <div class="col-md-2">
+                <a href="../media/magazine.html" class="title"> 德诚刊物 </a>
+                <a href="../media/magazine.html">德诚之窗 </a>
+              </div>
+              <div class="col-md-2">
+                <a href="../media/video.html" class="title"> 德诚映像 </a>
+                <a href="../media/video.html">德诚映像</a>
+              </div>
+            </div>
+          </div>
+        </span> <span class="line"></span> <span class="link-slide-box">
+          <a href="../responsibility/public-welfare.html" class="nav-border">社会责任</a>
+          <div class="slide-box">
+            <div class="row">
+              <div class="col-md-3"></div>
+              <div class="col-md-2">
+                <a href="../responsibility/public-welfare.html" class="title">社会公益</a>
+                <a href="../responsibility/public-welfare.html">社会公益</a>
+                <a href="../responsibility/public-welfare.html#project">公益战略</a>
+              </div>
+              <div class="col-md-4"></div>
+            </div>
+          </div>
+        </span>
+      </div>
+      <div class="menu">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Banner -->
+
+
+  <div class="main has-nav growth-development main-container">
+    <div class="banner" id="banner">
+      <div class="swiper-slide"> <img src="../../../img/mogu/banner_mogu_pc.jpg " alt="" class=" bg pc">
+         <img
+        src="../../../img/mogu/banner_mogu_wap.jpg" alt="" class="bg mobile">
+      </div>
+    </div>
+  </div>
+
+  <div class="mb80 threeOne">
+    <div class="row justify-content-center container-brands">
+      <div class="col-lg-4">
+        <h1 style="font-size: 35px!important;">MOGU</h1>
+        <p class="r-c-text">
+          MOGU是集团旗下快速发展的摩托车维修保养服务连锁品牌，旨在为非洲摩托车用户提供随时随地的专业维修保养服务，并通过标准化管理、体系化建设和规模化效应，提供物超所值的一站式服务体验。MOGU以“超越客户需求”为经营发展理念，逐渐成为西非地区一个有责任、有担当、值得消费者信赖的品牌。
+        <p class="card-text text-right"><small class="text-muted">了解更多</small></p>
+      </div>
+      <div class="col-lg-8" style="margin-top: 30px;">
+        <img src="../../../img/mogu/logo_mogu.jpg" class="img-auto" alt="" style="max-height: 350px;">
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion threeOne container-brands">
+    <ul >
+      <li>
+        <div>
+          <a href="" onclick="return false;">
+            <h3>品牌理念</h3>
+            <p>
+              热爱生活 (Vive la vie)
+            </p>
+          </a>
+        </div>
+      </li>
+      <li>
+        <div>
+          <a href="" onclick="return false;">
+            <h3>品牌定位</h3>
+            <p>
+              为摩托车用户提供一站式维修保养服务
+            </p>
+          </a>
+        </div>
+      </li>
+      <li>
+        <div>
+          <a href="" onclick="return false;">
+            <h3>品牌诠释</h3>
+            <p>
+              <p >以独特的服务价值主张，以先进的服务理念，满足多元化的服务需求，通过深度融入出行生活，营造令用户愉悦的服务体验。
+              </p>
+            </p>
+          </a>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="list container-brands">
+
+
+    <!--页面尾部-->
+    <div class="footer">
+      <div class="content container-custom">
+        <div class="list-row">
+          <div class="item">
+            <div class="title">关于德诚</div>
+            <div>
+              <a href="../about/about.html">企业介绍</a>
+              <a href="../about/culture.html">企业文化</a>
+              <a href="../about/contact-us.html">联系我们</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="title">产品和服务</div>
+            <div> <a href="../products/motor.html">业务范围</a>
+              <a href="../products/services.html">服务保障</a> </div>
+          </div>
+          <div class="item">
+            <div class="title">品牌运营</div>
+            <div> <a href="./apsonic.html">摩托车</a>
+              <a href="./agbon.html">农业机械</a><a
+                href="./mogu.html">售后服务</a> </div>
+          </div>
+          <div class="item">
+            <div class="title">员工关怀</div>
+            <div> <a href="../staffs/team.html">人才发展</a>
+              <a href="../staffs/work-environment.html">工作环境</a><a
+                href="../staffs/activities.html">员工活动</a>
+                <a href="../staffs/recruitment.html">加入我们</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="title">媒体中心</div>
+            <div>
+              <a href="../media/news/news.html">企业新闻</a>
+              <a href="../media/magazine.html">德诚刊物</a>
+              <a href="../media/video.html">德诚映像</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="title">社会责任</div>
+            <div> <a href="../responsibility/public-welfare.html">社会公益</a></div>
+          </div>
+          <div style="clear: both"></div>
+        </div>
+      </div>
+      <div class="container-custom media">
+        <div class="title">媒体关注</div>
+        <div class="media-icon-box">
+          <a href="javascript:;">
+            <div class="footer-icon wx"></div>
+            <img src="../../../img/common/wx_qr.png" class="qr-img">
+          </a>
+          <a target="_blank" href="#">
+            <div class="footer-icon wb"></div>
+          </a>
+  
+        </div>
+      </div>
+      <div class="container-custom links">
+        <a href="../brands/apsonic.html">APSONIC</a>
+        <a href="../brands/apsonic-pro.html">APSONIC Pro</a>
+        <a href="../brands/tsz.html">TSZ</a>
+        <a href="../brands/agbon.html">AGBON</a>
+        <a href="../brands/mogu.html">MOGU</a>
+      </div>
+      <div class="bottom-bar">
+        <div class="copy"><span> ©2012-2023 广州德诚摩托车工业有限公司版权所有</span>
+          <a href="#">粤ICP备12065742</a>
+          <a href="../about/contact-us.html">联系我们</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- begin foot import file 非首页使用该文件 -->
+    <script src="../../../js/34a370f617382ac527ffde75bc7457674b092bf30c19f7b6935a707810285ee5.js"></script>
+    <script src="../../../js/ed3244d96fcc906cdd716dd00431d91f4456c79123fbbf64f0e6998671cd946b.js"></script>
+    <script src="../../../js/a85d633155a2ee702386e27c7715f8ad632529106f24cf2956709d8cd6493674.js"></script>
+    <script src="../../../js/58bbc8de5a744bd7da70000d73a641f99241f9568283366ffb933faf2e1746a2.js"></script>
+    <script src="../../../js/5e6e427d9b363ad20ff949ee70aa93313949283125c0201542f874972d04a0dc.js"></script>
+    <script src="../../../js/042d26c9587899568999678ca477f9b9632c89a7e497408bf79adcaadce0e8fd.js"></script>
+    <script src="../../../js/d4082a7e9a7efdf97b871baf54a846bd359d9813eaa52b7147b603f6608b5e6a.js"></script>
+    <script src="../../../js/36ef403b957e414b9c79a24ef5d7b87854a4b8863e06eeae9a9b772748ccf9e8.js"></script>
+    <script src="../../../js/c3530a44ecd4e2e1348ebba20e91444951a0b6d93c7acf9fe89dc8879c7d1fed.js"></script>
+    <script src="../../../js/36dd1acebfa02af57d0a5b3d96dbe7e747408b2be5688a8a2b6b8f452caa43a7.js"></script>
+    <script src="../../../js/9b6d39252fc6d62c5b2545eaeeb07ab076bd89fa35060c285f612786b8fdb7b2.js"></script>
+
+</body>
+
+</html>
