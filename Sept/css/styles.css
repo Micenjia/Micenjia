@@ -1,0 +1,316 @@
+#header.hidden {
+    transform: translateY(-100%);
+}
+
+#tab-container {
+    position: sticky;
+    top: 0;
+    margin-bottom: 20px;
+    /* margin-top: -3px; */
+    z-index: 10;
+}
+
+#tab-container.sticky {
+    transform: translateY(0);
+    transition: transform 0.3s ease;
+}
+
+#tab {
+    background-color: whitesmoke;
+    color: #666666;
+    /* padding: 1rem 5%; */
+    font-size: 1rem;
+    transition: height 0.3s ease;
+    letter-spacing: normal;
+    height: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* #tab-anchor:target {
+    height: 75px;
+} */
+nav ul {
+    margin: 0;
+    padding: 0 3.1%;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+}
+
+nav ul li a {
+    display: inline-block;
+    /* 让竖线和文字对齐 */
+    vertical-align: middle;
+    padding: 13.875px 30px 13.875px 0px;
+    text-decoration: none;
+    color: #666666;
+    /* font-weight: bold; */
+    font-family: SourceHanSansCN-Medium;
+}
+
+.move {
+    /* height: 4px; */
+    width: 100px;
+    border-top: 4px solid #e8000D;
+    /*只需要将上边显示出来*/
+    position: relative;
+    left: -22.9%;
+    top: 42px;
+    transition: left .2s ease-in-out 0s;
+    /*包含四个过度属性：执行变换属性、执行时间、速率、延迟*/
+    -webkit-transition: left .2s ease-in-out 0s;
+    /*chrome和safari*/
+    -moz-transition: left .2s ease-in-out 0s;
+    /*firefox*/
+    -o-transition: left .2s ease-in-out 0s;
+    /*opera*/
+}
+
+li:nth-child(1):hover~.move {
+    /*li元素的父元素的第一个子元素，当鼠标停留其上时，move元素的left属性改变*/
+    left: -22.9%;
+}
+
+li:nth-child(2):hover~.move {
+    left: -15.3%;
+}
+
+li:nth-child(3):hover~.move {
+    left: -7.5%;
+}
+
+/* li:nth-child(4):hover~ .move{
+    left: 220px;
+}
+li:nth-child(5):hover~ .move{
+    left: 330px;
+}
+li:nth-child(6):hover~ .move{
+    left: 550px;
+} */
+
+
+/* li:hover ~ li::before {
+    left: 0;
+} */
+
+
+
+main {
+    min-height: 2000px;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.threeOne {
+    padding: 0 3.1%;
+}
+
+a.active {
+    color: #f0f0f0;
+    font-size: 2em;
+    display: none;
+}
+.container{
+    padding: 0;
+  }
+.container-product {
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-brands {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 992px) {
+    .container-product {
+        width: 100%;
+        max-width: 1880px;
+    }
+    #tab{
+        width: 100%;
+        max-width: 1920px;
+    }
+    .container-brands{
+        width: 100%;
+        max-width: 1880px;
+    }
+}
+.pl-0{
+    padding-left: 0;
+}
+.pr-0{
+    padding-right: 0;
+}
+.bg-red{
+    background-color: #e4000bb5;
+    width: fit-content;
+}
+.bg-red h5{
+    color: #f0f0f0;
+    /* padding: 5%; */
+}
+.bg-dark-red{
+    background-color: #e4000D;
+    width: fit-content;
+}
+.w-47{
+    width: 47%;
+    line-height: 1.75;
+    font-family: SourceHanSansCN-Regular;
+}
+.card-img-overlay{
+    top: auto;
+    padding: 2.25rem;
+}
+.card-shadow{
+    box-shadow:4px 4px 20px 7px #ececec;
+}
+.bg-linear{
+    background: linear-gradient(360deg, #00000075, #ffffff00);
+}
+
+/* accordion手风琴效果 */
+.accordion {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    margin: 50px auto;
+  }
+
+  .accordion ul {
+    width: 100%;
+    display: block;
+    table-layout: fixed;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .accordion ul li {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+    transition: all 500ms ease-in-out;
+  }
+
+  .accordion ul li div {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .accordion ul li div a {
+    display: block;
+    height: 360px;
+    width: 100%;
+    position: relative;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    color: #fff;
+    text-decoration: none;
+    transition: all 200ms ease;
+  }
+
+  .accordion ul li div a * {
+    /* opacity: 0; */
+    margin: 0;
+    width: 100%;
+    text-overflow: ellipsis;
+    position: relative;
+    z-index: 5;
+    white-space: normal;
+    transform: translateX(-20px);
+    transition: all 400ms ease;
+  }
+
+  .accordion ul li div a h3 {
+    text-overflow: clip;
+    font-size: 2em;
+    margin-bottom: 2px;
+    top: 20%;
+    left: 70px;
+    color: whitesmoke;
+  }
+
+  .accordion ul li div a p {
+    top: 80%;
+    font-size: 1.25em;
+    color: whitesmoke;
+    left: 15%;
+    opacity: 0;
+    width: 660px;
+    transition: all 400ms ease;
+  }
+
+  .accordion ul:hover li {
+    height: 120px;
+  }
+  .accordion ul:hover h3{
+    top: 10%;
+  }
+  .accordion ul:hover li:hover {
+    height: 360px;
+    width: 110%;
+  }
+
+  .accordion ul:hover li:hover h3 {
+    top: 40%;
+  }
+
+  .accordion ul:hover li:hover p {
+    left: 15%;
+    top: 28%;
+  }
+
+  .accordion ul:hover li:hover a {
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  .accordion ul:hover li:hover a * {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  @media screen and (max-width: 600px) {
+    body {
+      margin: 0;
+    }
+
+    .accordion {
+      height: auto;
+    }
+
+    .accordion ul li,
+    .accordion ul li:hover,
+    .accordion ul:hover li,
+    .accordion ul:hover li:hover {
+      position: relative;
+      display: block;
+      table-layout: fixed;
+      width: 100%;
+      -webkit-transition: none;
+      transition: none;
+    }
+    .accordion ul:hover li:hover h3 {
+    top: 20%;
+    left: 10%;
+  }
+  .accordion ul:hover li:hover p {
+    top: 25%;
+    left: 10.5%;
+    display: block;
+    width: 80%;
+  }
+  }
